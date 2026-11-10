@@ -2,8 +2,6 @@
 
 **SignOffBench: Can AI Agents Pass Real-World Engineering Design Sign-Off?**
 
-SVD AI Lab · Contact: Weiqi Ji (jiweiqi@svdailab.com)
-
 ## What this measures
 
 Engineering agents can produce executable designs, but execution alone does not
