@@ -2,7 +2,7 @@
 
 **SignOffBench: Can AI Agents Pass Real-World Engineering Design Sign-Off?**
 
-SVD AI Lab · Contact: Weiqi Ji (jiweiqi10@gmail.com)
+SVD AI Lab · Contact: Weiqi Ji (jiweiqi@svdailab.com)
 
 ## What this measures
 
