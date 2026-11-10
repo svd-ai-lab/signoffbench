@@ -1,0 +1,111 @@
+{
+  "grader_sha256": "792595019e450b4edf7e61dfda5d1b40e7af3c284f8d84a9ffc84ff0fe5fa514",
+  "transport_test_script_sha256": "7d71337a53b0da3ef1090ebe8d40e7ef46417fdce85fdfa12feba45fe468c218",
+  "transport_tests": [
+    {
+      "test": "normal",
+      "passed": true,
+      "elapsed_s": 0.22328298701904714,
+      "error": null
+    },
+    {
+      "test": "stderr_burst",
+      "passed": true,
+      "elapsed_s": 0.2234091489808634,
+      "error": null
+    },
+    {
+      "test": "detached_writer",
+      "passed": true,
+      "elapsed_s": 0.21873341302853078,
+      "error": "RuntimeError"
+    },
+    {
+      "test": "silent",
+      "passed": true,
+      "elapsed_s": 0.5560633540153503,
+      "error": "TimeoutError"
+    },
+    {
+      "test": "input_backpressure",
+      "passed": true,
+      "elapsed_s": 0.5565209190826863,
+      "error": "TimeoutError"
+    },
+    {
+      "test": "oversized_output",
+      "passed": true,
+      "elapsed_s": 0.2237417020369321,
+      "error": "ValueError"
+    },
+    {
+      "test": "incomplete_line",
+      "passed": true,
+      "elapsed_s": 0.5564836380071938,
+      "error": "TimeoutError"
+    }
+  ],
+  "native_replays": [
+    {
+      "run": "normal01",
+      "exit_code": 0,
+      "old_reward": 0,
+      "new_reward": 0,
+      "candidate_sha256": "d0cbc981d7c47bcb0de17f4e728629da6a07b5f5e06d2e8bd66b49a4d4a3bb6f",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 119.4457848072052
+    },
+    {
+      "run": "normal02",
+      "exit_code": 0,
+      "old_reward": 0,
+      "new_reward": 0,
+      "candidate_sha256": "dc0c57308120504b4fce3f3e9a5f6679507b8ef498079703bde37637158b0fee",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 115.19275999069214
+    },
+    {
+      "run": "normal03",
+      "exit_code": 0,
+      "old_reward": 1,
+      "new_reward": 1,
+      "candidate_sha256": "99ed1c1a578091e5eceba52e5b7a176e77f47319596b646d87775a214ac990a1",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 142.0325951576233
+    },
+    {
+      "run": "normal04",
+      "exit_code": 0,
+      "old_reward": 0,
+      "new_reward": 0,
+      "candidate_sha256": "0f76794d411269020888d450b16c4b68ebb6117f66e5536b3f00af62405e6df9",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 126.66184449195862
+    },
+    {
+      "run": "normal05",
+      "exit_code": 0,
+      "old_reward": 1,
+      "new_reward": 1,
+      "candidate_sha256": "a35317c3d933b079ed3a0273400da464fb4a4ce39bb2926a2a61a713345a7afe",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 128.72356271743774
+    },
+    {
+      "run": "oracle01",
+      "exit_code": 0,
+      "old_reward": 1,
+      "new_reward": 1,
+      "candidate_sha256": "7f675a5baccdd4a2d59f3f5c3ef51a3ebcf0dfde85c3b6efb94dfe46c01ac94b",
+      "differences": [],
+      "case_count": 31,
+      "elapsed_s": 120.3966007232666
+    }
+  ],
+  "scope": "Regression of output transport only; frozen historical candidates, no fresh model generation."
+}

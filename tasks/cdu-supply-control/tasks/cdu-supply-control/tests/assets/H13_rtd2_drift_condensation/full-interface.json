@@ -1,0 +1,358 @@
+{
+  "case": "H13_rtd2_drift_condensation",
+  "fluid": "water",
+  "scan_s": 0.5,
+  "commands": [
+    "pumpA_cmd",
+    "pumpB_cmd",
+    "pumpC_cmd",
+    "valve_cmd",
+    "alm_pump",
+    "alm_tsensor",
+    "alm_dpsensor",
+    "alm_flowmeter",
+    "alm_valve"
+  ],
+  "observations": [
+    "T_sup1",
+    "T_sup2",
+    "T_ret",
+    "P_sup",
+    "P_ret",
+    "dP1",
+    "dP2",
+    "F_sec",
+    "T_fs",
+    "T_fr",
+    "P_fs",
+    "P_fr",
+    "valve_pos",
+    "spdA",
+    "spdB",
+    "spdC",
+    "kWA",
+    "kWB",
+    "kWC",
+    "faultA",
+    "faultB",
+    "faultC",
+    "dew"
+  ],
+  "truth_names": [
+    "t",
+    "T_sup",
+    "T_ret",
+    "P_sup",
+    "P_ret",
+    "F_sec",
+    "T_fs",
+    "T_fr",
+    "P_fs",
+    "P_fr",
+    "valve_pos",
+    "spdA",
+    "spdB",
+    "spdC",
+    "kWA",
+    "kWB",
+    "kWC",
+    "faultA",
+    "faultB",
+    "faultC",
+    "F_prim",
+    "F_g1",
+    "F_g2",
+    "F_g3",
+    "F_g4",
+    "Tcase_g1",
+    "Tcase_g2",
+    "Tcase_g3",
+    "Tcase_g4",
+    "Q_it",
+    "q_pumpA",
+    "q_pumpB",
+    "q_pumpC",
+    "q_reverse",
+    "dP",
+    "dew",
+    "T_fws",
+    "dp_fac",
+    "err_T_sup1",
+    "err_T_sup2",
+    "err_dP1",
+    "err_dP2",
+    "err_F_sec",
+    "pumpA_cmd",
+    "pumpB_cmd",
+    "pumpC_cmd",
+    "valve_cmd",
+    "alm_pump",
+    "alm_tsensor",
+    "alm_dpsensor",
+    "alm_flowmeter",
+    "alm_valve"
+  ],
+  "scenario": {
+    "name": "H13_rtd2_drift_condensation",
+    "set": "hidden",
+    "what": "RTD2 slow positive drift on W17 water, room dew 21 C: condensation floor is active and initially satisfied",
+    "fluid": "water",
+    "ua": 1,
+    "tend": 1200,
+    "T0s": 24.8,
+    "valve0": 50,
+    "spd0": 0,
+    "seed": 33,
+    "load": [
+      [
+        0,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ],
+      [
+        650,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ],
+      [
+        655,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      [
+        900,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      [
+        905,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      [
+        100000,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    ],
+    "Tfws": [
+      [
+        0,
+        17
+      ],
+      [
+        100000,
+        17
+      ]
+    ],
+    "dpfac": [
+      [
+        0,
+        25
+      ],
+      [
+        100000,
+        25
+      ]
+    ],
+    "dew": [
+      [
+        0,
+        21
+      ],
+      [
+        100000,
+        21
+      ]
+    ],
+    "iso": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        100000,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "drv": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100000,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chk": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100000,
+        0,
+        0,
+        0
+      ]
+    ],
+    "wear": [
+      1,
+      1,
+      1
+    ],
+    "pump_head": [
+      0.95,
+      1.05,
+      1
+    ],
+    "pump_flow": [
+      1.08,
+      0.92,
+      1
+    ],
+    "pump_eff": [
+      0.95,
+      1.02,
+      1
+    ],
+    "wear_eff": [
+      1,
+      1,
+      1
+    ],
+    "valve_R": 65,
+    "valve_Cv_factor": 1.025,
+    "valve_shape": 0,
+    "valve_stroke_factor": 1.05,
+    "sensor_bias": [
+      -0.16,
+      0.2,
+      -0.12,
+      -0.025,
+      0.02,
+      -0.03,
+      0.035,
+      0,
+      -0.15,
+      0.12,
+      -0.02,
+      0.025
+    ],
+    "sensor_drift": [
+      -1e-05,
+      1e-05,
+      -6e-06,
+      -2.0000000000000003e-06,
+      2.0000000000000003e-06,
+      -2.0000000000000003e-06,
+      2.0000000000000003e-06,
+      0,
+      -6e-06,
+      6e-06,
+      -2.0000000000000003e-06,
+      2.0000000000000003e-06
+    ],
+    "sensor_noise_mult": [
+      0.8,
+      1.2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.8,
+      1,
+      1
+    ],
+    "sensor_gain": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0.996,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sf": [
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        420,
+        2,
+        0.018
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ]
+    ],
+    "vf": [
+      1000000000.0,
+      0,
+      0,
+      0,
+      1000000000.0
+    ],
+    "ev": [
+      650,
+      900
+    ]
+  },
+  "command_delay_location": "python_previous_scan_buffer",
+  "command_delay_s": 0.5,
+  "command_buffer_initial": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fmi_version": "3.0",
+  "runtime_semantics": "fmi3-event-external-one-scan-v1"
+}

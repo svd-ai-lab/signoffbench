@@ -1,0 +1,3 @@
+Agent 'cdu-e09-quick' does not declare an options_model; leftover kwargs are ignored
+Agent 'cdu-e09-quick' exposes no native web search or fetch tools for Harbor to disable; continuing. Sandbox network policy still applies.
+Collecting main service artifacts

@@ -1,0 +1,904 @@
+{
+  "scope": "The 24 offline .deb build inputs only; not a complete base-image SBOM. Original package copyright and control bytes retained.",
+  "packages": [
+    {
+      "artifact": "asciinema_2.4.0-1_all.deb",
+      "name": "asciinema",
+      "version": "2.4.0-1",
+      "architecture": "all",
+      "sha256": "7f069e3dcf93c41c13835aa2423a220688c95a91ac0a972c4335dad3c43afb8e",
+      "source_package": "asciinema",
+      "source_version": "2.4.0-1",
+      "upstream_homepage": "https://asciinema.org",
+      "license_labels_from_copyright": [
+        "GPL-3+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/asciinema/copyright",
+          "path": "metadata/licenses/debian/asciinema/copyright",
+          "sha256": "0a00dcb4bd0218d64f9cc40d113f877ce04d11be00f002cbefc84d9313584d17"
+        }
+      ],
+      "license": "GPL-3+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "asciinema",
+        "source_version": "2.4.0-1",
+        "binary_version": "2.4.0-1",
+        "artifact_sha256": "7f069e3dcf93c41c13835aa2423a220688c95a91ac0a972c4335dad3c43afb8e"
+      },
+      "source_locator": "https://sources.debian.org/src/asciinema/2.4.0-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://asciinema.org"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/asciinema/control",
+        "sha256": "00faffd397ea0aeaf452f92a09ebb4fa8a935cff93dcd47ae4faddee84f4a9fb"
+      }
+    },
+    {
+      "artifact": "libevent-core-2.1-7t64_2.1.13-stable-1~deb13u1_amd64.deb",
+      "name": "libevent-core-2.1-7t64",
+      "version": "2.1.13-stable-1~deb13u1",
+      "architecture": "amd64",
+      "sha256": "faa7d20cc8fa05ac3b0497065fa60bc920eacd3711ff039649d43a7aa34421ce",
+      "source_package": "libevent",
+      "source_version": "2.1.13-stable-1~deb13u1",
+      "upstream_homepage": "https://libevent.org/",
+      "license_labels_from_copyright": [
+        "BSD-2-clause",
+        "BSD-3-clause",
+        "BSL",
+        "Expat",
+        "FSFUL",
+        "FSFULLR",
+        "FSFULLR-No-Warranty",
+        "GPL-2+",
+        "GPL-3+",
+        "ISC",
+        "curl"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libevent-core-2.1-7t64/copyright",
+          "path": "metadata/licenses/debian/libevent-core-2.1-7t64/copyright",
+          "sha256": "cc6deffa11bd148006f056eb28320a080a32e574993f5d44c591ad8849433201"
+        }
+      ],
+      "license": "BSD-2-clause; BSD-3-clause; BSL; Expat; FSFUL; FSFULLR; FSFULLR-No-Warranty; GPL-2+; GPL-3+; ISC; curl",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "libevent",
+        "source_version": "2.1.13-stable-1~deb13u1",
+        "binary_version": "2.1.13-stable-1~deb13u1",
+        "artifact_sha256": "faa7d20cc8fa05ac3b0497065fa60bc920eacd3711ff039649d43a7aa34421ce"
+      },
+      "source_locator": "https://sources.debian.org/src/libevent/2.1.13-stable-1~deb13u1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://libevent.org/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libevent-core-2.1-7t64/control",
+        "sha256": "da2e3c62b3b690031709543783bc3161110f063c6cbdebb823b9dfed211f4064"
+      }
+    },
+    {
+      "artifact": "libexpat1_2.9.0-1~deb13u1_amd64.deb",
+      "name": "libexpat1",
+      "version": "2.9.0-1~deb13u1",
+      "architecture": "amd64",
+      "sha256": "feff874772cae904ae4d24e917b35664952bec4b4ae9100a4edda5a7fa746832",
+      "source_package": "expat",
+      "source_version": "2.9.0-1~deb13u1",
+      "upstream_homepage": "https://libexpat.github.io/",
+      "license_labels_from_copyright": [
+        "MIT"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libexpat1/copyright",
+          "path": "metadata/licenses/debian/libexpat1/copyright",
+          "sha256": "60919fe1a156395ff14511bb6ff79756c50ade2fff59ac60c9bae1d8a7fe6292"
+        }
+      ],
+      "license": "MIT",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "expat",
+        "source_version": "2.9.0-1~deb13u1",
+        "binary_version": "2.9.0-1~deb13u1",
+        "artifact_sha256": "feff874772cae904ae4d24e917b35664952bec4b4ae9100a4edda5a7fa746832"
+      },
+      "source_locator": "https://sources.debian.org/src/expat/2.9.0-1~deb13u1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/libexpat/libexpat"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libexpat1/control",
+        "sha256": "1a332bef6dc36bea908193809c1c63164fb4c307cf26bcc9c280db9a608b86b8"
+      }
+    },
+    {
+      "artifact": "libjemalloc2_5.3.0-3_amd64.deb",
+      "name": "libjemalloc2",
+      "version": "5.3.0-3",
+      "architecture": "amd64",
+      "sha256": "e7d64919e620e8ea46960104efe1e9c977d751e5b610a5d89b0b51aeae9530d7",
+      "source_package": "jemalloc",
+      "source_version": "5.3.0-3",
+      "upstream_homepage": "https://jemalloc.net/",
+      "license_labels_from_copyright": [
+        "BSD-2-Clause",
+        "BSD-2-Clause-Chemeris",
+        "BSD-3-Clause",
+        "BSD-3-Clause-Google",
+        "BSD-3-Clause-Hiroshima-University",
+        "Expat"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libjemalloc2/copyright",
+          "path": "metadata/licenses/debian/libjemalloc2/copyright",
+          "sha256": "901035c3a078faacf8f8253348165c9515d6c64c25bd87c91e4934d671a9960c"
+        }
+      ],
+      "license": "BSD-2-Clause; BSD-2-Clause-Chemeris; BSD-3-Clause; BSD-3-Clause-Google; BSD-3-Clause-Hiroshima-University; Expat",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "jemalloc",
+        "source_version": "5.3.0-3",
+        "binary_version": "5.3.0-3",
+        "artifact_sha256": "e7d64919e620e8ea46960104efe1e9c977d751e5b610a5d89b0b51aeae9530d7"
+      },
+      "source_locator": "https://sources.debian.org/src/jemalloc/5.3.0-3/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://jemalloc.net/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libjemalloc2/control",
+        "sha256": "9f9b623d9e41aa3a190273d3fda7648323e6d9b97bc659c415190673b51ba374"
+      }
+    },
+    {
+      "artifact": "libproc2-0_2%3a4.0.4-9_amd64.deb",
+      "name": "libproc2-0",
+      "version": "2:4.0.4-9",
+      "architecture": "amd64",
+      "sha256": "c9d61caab1b2ddfc3f17edb95be31b9809fcb2daf27d853dff615bc4ebd08b4b",
+      "source_package": "procps",
+      "source_version": "2:4.0.4-9",
+      "upstream_homepage": "https://gitlab.com/procps-ng/procps",
+      "license_labels_from_copyright": [
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libproc2-0/copyright",
+          "path": "metadata/licenses/debian/libproc2-0/copyright",
+          "sha256": "90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539"
+        }
+      ],
+      "license": "GPL-2.0+; LGPL-2.0+; LGPL-2.1+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "procps",
+        "source_version": "2:4.0.4-9",
+        "binary_version": "2:4.0.4-9",
+        "artifact_sha256": "c9d61caab1b2ddfc3f17edb95be31b9809fcb2daf27d853dff615bc4ebd08b4b"
+      },
+      "source_locator": "https://sources.debian.org/src/procps/2%3A4.0.4-9/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://gitlab.com/procps-ng/procps"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libproc2-0/control",
+        "sha256": "0ccedaabb30a012314d4457cb47543009eaf9ad3e6adba0d63e2cea67b965954"
+      }
+    },
+    {
+      "artifact": "libpython3-stdlib_3.13.5-1_amd64.deb",
+      "name": "libpython3-stdlib",
+      "version": "3.13.5-1",
+      "architecture": "amd64",
+      "sha256": "7e142ed64a81ccdd39714f213467bd365736ef341adb2be11be981f638b9175f",
+      "source_package": "python3-defaults",
+      "source_version": "3.13.5-1",
+      "upstream_homepage": "https://www.python.org/",
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libpython3-stdlib/copyright",
+          "path": "metadata/licenses/debian/libpython3-stdlib/copyright",
+          "sha256": "5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3-defaults",
+        "source_version": "3.13.5-1",
+        "binary_version": "3.13.5-1",
+        "artifact_sha256": "7e142ed64a81ccdd39714f213467bd365736ef341adb2be11be981f638b9175f"
+      },
+      "source_locator": "https://sources.debian.org/src/python3-defaults/3.13.5-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libpython3-stdlib/control",
+        "sha256": "961d7b970687d44d862e92b3c365fc6cfc9d4eaaec6ce1b9074e614d30671f7e"
+      }
+    },
+    {
+      "artifact": "libpython3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+      "name": "libpython3.13-minimal",
+      "version": "3.13.5-2+deb13u5",
+      "architecture": "amd64",
+      "sha256": "a4aa6a9a8c77f87bfe545e1d14ec42c001d189ace90e3aa75deec882b39dee49",
+      "source_package": "python3.13",
+      "source_version": "3.13.5-2+deb13u5",
+      "upstream_homepage": null,
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libpython3.13-minimal/copyright",
+          "path": "metadata/licenses/debian/libpython3.13-minimal/copyright",
+          "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3.13",
+        "source_version": "3.13.5-2+deb13u5",
+        "binary_version": "3.13.5-2+deb13u5",
+        "artifact_sha256": "a4aa6a9a8c77f87bfe545e1d14ec42c001d189ace90e3aa75deec882b39dee49"
+      },
+      "source_locator": "https://sources.debian.org/src/python3.13/3.13.5-2%2Bdeb13u5/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "It was downloaded from http://python.org/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libpython3.13-minimal/control",
+        "sha256": "5ee404fd615b955ebce67b521583602e6bff32f7c12e073fe6d4436b77e99ade"
+      }
+    },
+    {
+      "artifact": "libpython3.13-stdlib_3.13.5-2+deb13u5_amd64.deb",
+      "name": "libpython3.13-stdlib",
+      "version": "3.13.5-2+deb13u5",
+      "architecture": "amd64",
+      "sha256": "db161322a3481d2c0c3b9a3b9a03c3ab0e2b1718f54b88755fb4a3f939165b84",
+      "source_package": "python3.13",
+      "source_version": "3.13.5-2+deb13u5",
+      "upstream_homepage": null,
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/libpython3.13-minimal/copyright",
+          "path": "metadata/licenses/debian/libpython3.13-minimal/copyright",
+          "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382"
+        }
+      ],
+      "copyright_resolution": {
+        "package_path": "./usr/share/doc/libpython3.13-stdlib",
+        "symlink_target": "libpython3.13-minimal",
+        "resolved_package": "libpython3.13-minimal",
+        "resolved_version": "3.13.5-2+deb13u5"
+      },
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3.13",
+        "source_version": "3.13.5-2+deb13u5",
+        "binary_version": "3.13.5-2+deb13u5",
+        "artifact_sha256": "db161322a3481d2c0c3b9a3b9a03c3ab0e2b1718f54b88755fb4a3f939165b84"
+      },
+      "source_locator": "https://sources.debian.org/src/python3.13/3.13.5-2%2Bdeb13u5/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "It was downloaded from http://python.org/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/libpython3.13-stdlib/control",
+        "sha256": "5779383ac529170d70d45da1d0634c6ba7ab26f1bc845d3439fc220709e5943a"
+      }
+    },
+    {
+      "artifact": "media-types_13.0.0_all.deb",
+      "name": "media-types",
+      "version": "13.0.0",
+      "architecture": "all",
+      "sha256": "0788e4b0b72db1bcf74a19cb24c3511e7770ad0b341f0f30e361701c3072f53e",
+      "source_package": "media-types",
+      "source_version": "13.0.0",
+      "upstream_homepage": null,
+      "license_labels_from_copyright": [
+        "ad-hoc"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/media-types/copyright",
+          "path": "metadata/licenses/debian/media-types/copyright",
+          "sha256": "5ded7c53199b6a1d089b0b7e231d77e5c84081c7156b372b3f11ad9c1c2c5cc7"
+        }
+      ],
+      "license": "ad-hoc",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "media-types",
+        "source_version": "13.0.0",
+        "binary_version": "13.0.0",
+        "artifact_sha256": "0788e4b0b72db1bcf74a19cb24c3511e7770ad0b341f0f30e361701c3072f53e"
+      },
+      "source_locator": "https://sources.debian.org/src/media-types/13.0.0/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://salsa.debian.org/debian/media-types"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/media-types/control",
+        "sha256": "60e871d56cfcc834fe0a8d0436f98996e1bb196d3ddf8f2109d0f05266a816ce"
+      }
+    },
+    {
+      "artifact": "procps_2%3a4.0.4-9_amd64.deb",
+      "name": "procps",
+      "version": "2:4.0.4-9",
+      "architecture": "amd64",
+      "sha256": "4db90bb6776772fc52585d6b1fbfc52ec2a85480e1b4363b743fbb2ffa2a5375",
+      "source_package": "procps",
+      "source_version": "2:4.0.4-9",
+      "upstream_homepage": "https://gitlab.com/procps-ng/procps",
+      "license_labels_from_copyright": [
+        "GPL-2.0+",
+        "LGPL-2.0+",
+        "LGPL-2.1+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/procps/copyright",
+          "path": "metadata/licenses/debian/procps/copyright",
+          "sha256": "90a66617c36d83068b52bbb77cbfef1234f526bfa287156d9d05f7df4d339539"
+        }
+      ],
+      "license": "GPL-2.0+; LGPL-2.0+; LGPL-2.1+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "procps",
+        "source_version": "2:4.0.4-9",
+        "binary_version": "2:4.0.4-9",
+        "artifact_sha256": "4db90bb6776772fc52585d6b1fbfc52ec2a85480e1b4363b743fbb2ffa2a5375"
+      },
+      "source_locator": "https://sources.debian.org/src/procps/2%3A4.0.4-9/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://gitlab.com/procps-ng/procps"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/procps/control",
+        "sha256": "d8f122e747752920f7d8078ea3dcf600ee1fea61b4b6bc01b306b8c0cbd1c8a4"
+      }
+    },
+    {
+      "artifact": "python3-autocommand_2.2.2-3_all.deb",
+      "name": "python3-autocommand",
+      "version": "2.2.2-3",
+      "architecture": "all",
+      "sha256": "1e62ac22ff83466228c051c6c2402a40f521646e15b5aa54cf2391206a848bad",
+      "source_package": "python-autocommand",
+      "source_version": "2.2.2-3",
+      "upstream_homepage": "https://github.com/Lucretiel/autocommand",
+      "license_labels_from_copyright": [
+        "LGPL-3+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-autocommand/copyright",
+          "path": "metadata/licenses/debian/python3-autocommand/copyright",
+          "sha256": "dc760cc4da23ca2525a4cb36a2bf7d769df55f7f95baaa5457a3d1f8e0bee0a2"
+        }
+      ],
+      "license": "LGPL-3+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python-autocommand",
+        "source_version": "2.2.2-3",
+        "binary_version": "2.2.2-3",
+        "artifact_sha256": "1e62ac22ff83466228c051c6c2402a40f521646e15b5aa54cf2391206a848bad"
+      },
+      "source_locator": "https://sources.debian.org/src/python-autocommand/2.2.2-3/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/Lucretiel/autocommand"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-autocommand/control",
+        "sha256": "e4b520a250f5ebdc858a187e95fcda60cc74b96c59fbdc573df205471bcd854a"
+      }
+    },
+    {
+      "artifact": "python3-inflect_7.3.1-2_all.deb",
+      "name": "python3-inflect",
+      "version": "7.3.1-2",
+      "architecture": "all",
+      "sha256": "6c10dca4d4aa0eb0b4e16e8b62b74a073a8d22be8809c3f61c56b06fdd1451f8",
+      "source_package": "python-inflect",
+      "source_version": "7.3.1-2",
+      "upstream_homepage": "https://github.com/jaraco/inflect",
+      "license_labels_from_copyright": [
+        "Expat"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-inflect/copyright",
+          "path": "metadata/licenses/debian/python3-inflect/copyright",
+          "sha256": "78097d720297dc93b63b1dfbd466cb29dab190e88bb9fd54bc1f61e904ef177c"
+        }
+      ],
+      "license": "Expat",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python-inflect",
+        "source_version": "7.3.1-2",
+        "binary_version": "7.3.1-2",
+        "artifact_sha256": "6c10dca4d4aa0eb0b4e16e8b62b74a073a8d22be8809c3f61c56b06fdd1451f8"
+      },
+      "source_locator": "https://sources.debian.org/src/python-inflect/7.3.1-2/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://pypi.python.org/packages/source/i/inflect/inflect-0.2.5.tar.gz#md5=ca9ecb838687253eedc6c81f59c656a7"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-inflect/control",
+        "sha256": "9ce609a40621e0bafaa8211c82d2b9b461288c31af46c9888cb40d4f72fdf736"
+      }
+    },
+    {
+      "artifact": "python3-jaraco.context_6.0.1-1+deb13u1_all.deb",
+      "name": "python3-jaraco.context",
+      "version": "6.0.1-1+deb13u1",
+      "architecture": "all",
+      "sha256": "f909ec7b00dd96a1905322acba7cdd2df09747ceddeef6e426a97b33ab227f80",
+      "source_package": "jaraco.context",
+      "source_version": "6.0.1-1+deb13u1",
+      "upstream_homepage": "https://github.com/jaraco/jaraco.context",
+      "license_labels_from_copyright": [
+        "Expat",
+        "GPL-2+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-jaraco.context/copyright",
+          "path": "metadata/licenses/debian/python3-jaraco.context/copyright",
+          "sha256": "85e609bef75c4d4884864ce845060898c6e723357f9159c61d053c10e6b83c63"
+        }
+      ],
+      "license": "Expat; GPL-2+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "jaraco.context",
+        "source_version": "6.0.1-1+deb13u1",
+        "binary_version": "6.0.1-1+deb13u1",
+        "artifact_sha256": "f909ec7b00dd96a1905322acba7cdd2df09747ceddeef6e426a97b33ab227f80"
+      },
+      "source_locator": "https://sources.debian.org/src/jaraco.context/6.0.1-1%2Bdeb13u1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/jaraco/jaraco.context"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-jaraco.context/control",
+        "sha256": "426194231d301920b7c07425de8eaaadf36924d7b5373909a75b4a32a6717c2f"
+      }
+    },
+    {
+      "artifact": "python3-jaraco.functools_4.1.0-1_all.deb",
+      "name": "python3-jaraco.functools",
+      "version": "4.1.0-1",
+      "architecture": "all",
+      "sha256": "f5ac3e5f79b6394191d76ea7cde9255d8bae98f639886cb981444128f6545796",
+      "source_package": "python-jaraco.functools",
+      "source_version": "4.1.0-1",
+      "upstream_homepage": "https://github.com/jaraco/jaraco.functools",
+      "license_labels_from_copyright": [
+        "Expat",
+        "GPL-2+"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-jaraco.functools/copyright",
+          "path": "metadata/licenses/debian/python3-jaraco.functools/copyright",
+          "sha256": "45b9c4eea74f6df2ee503bba1b5de4e382fa54673283317e1002d03dd4296323"
+        }
+      ],
+      "license": "Expat; GPL-2+",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python-jaraco.functools",
+        "source_version": "4.1.0-1",
+        "binary_version": "4.1.0-1",
+        "artifact_sha256": "f5ac3e5f79b6394191d76ea7cde9255d8bae98f639886cb981444128f6545796"
+      },
+      "source_locator": "https://sources.debian.org/src/python-jaraco.functools/4.1.0-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/jaraco/jaraco.functools"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-jaraco.functools/control",
+        "sha256": "436f7bfe4f01c469c67f8760cf985f9f07da8694baafe290d7941143442be0ba"
+      }
+    },
+    {
+      "artifact": "python3-minimal_3.13.5-1_amd64.deb",
+      "name": "python3-minimal",
+      "version": "3.13.5-1",
+      "architecture": "amd64",
+      "sha256": "a5d2371bebf3689f676e3f3bae800371bcc4392a8a51269e23d528249b399615",
+      "source_package": "python3-defaults",
+      "source_version": "3.13.5-1",
+      "upstream_homepage": "https://www.python.org/",
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-minimal/copyright",
+          "path": "metadata/licenses/debian/python3-minimal/copyright",
+          "sha256": "5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3-defaults",
+        "source_version": "3.13.5-1",
+        "binary_version": "3.13.5-1",
+        "artifact_sha256": "a5d2371bebf3689f676e3f3bae800371bcc4392a8a51269e23d528249b399615"
+      },
+      "source_locator": "https://sources.debian.org/src/python3-defaults/3.13.5-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-minimal/control",
+        "sha256": "8a74511d40323ee014cb9b59f59deb2fa119cfbad452e76fa5c213fcbb22bdd1"
+      }
+    },
+    {
+      "artifact": "python3-more-itertools_10.7.0-1_all.deb",
+      "name": "python3-more-itertools",
+      "version": "10.7.0-1",
+      "architecture": "all",
+      "sha256": "385d785fa84261838732ec97627b4e95ec7399fc449d8a2aaaef66fb5f961c25",
+      "source_package": "more-itertools",
+      "source_version": "10.7.0-1",
+      "upstream_homepage": "https://github.com/more-itertools/more-itertools/",
+      "license_labels_from_copyright": [
+        "MIT-style"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-more-itertools/copyright",
+          "path": "metadata/licenses/debian/python3-more-itertools/copyright",
+          "sha256": "8860688cd480c928d19f3779a96ce153e6fed7468eb5b6b34091b5af43f09c1b"
+        }
+      ],
+      "license": "MIT-style",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "more-itertools",
+        "source_version": "10.7.0-1",
+        "binary_version": "10.7.0-1",
+        "artifact_sha256": "385d785fa84261838732ec97627b4e95ec7399fc449d8a2aaaef66fb5f961c25"
+      },
+      "source_locator": "https://sources.debian.org/src/more-itertools/10.7.0-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/more-itertools/more-itertools"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-more-itertools/control",
+        "sha256": "6807db7832ba1e1e7c6f34ea66a7a840ba6fc9a6fccaf26fa09d2353c082624d"
+      }
+    },
+    {
+      "artifact": "python3-pkg-resources_78.1.1-0.1_all.deb",
+      "name": "python3-pkg-resources",
+      "version": "78.1.1-0.1",
+      "architecture": "all",
+      "sha256": "cf8749251172abc945216cf878367f614cf91d3d9a1043ba3bacc5a74e8cc1a8",
+      "source_package": "setuptools",
+      "source_version": "78.1.1-0.1",
+      "upstream_homepage": "https://pypi.python.org/pypi/setuptools",
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-pkg-resources/copyright",
+          "path": "metadata/licenses/debian/python3-pkg-resources/copyright",
+          "sha256": "b667d4e1f17b94a30d1398150ee53cfbe65e2c71b9fc12509d641612233abe97"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "setuptools",
+        "source_version": "78.1.1-0.1",
+        "binary_version": "78.1.1-0.1",
+        "artifact_sha256": "cf8749251172abc945216cf878367f614cf91d3d9a1043ba3bacc5a74e8cc1a8"
+      },
+      "source_locator": "https://sources.debian.org/src/setuptools/78.1.1-0.1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "It was downloaded from"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-pkg-resources/control",
+        "sha256": "dfd25d62951489bc052f4468f9253192d750d1311739e658c8baff2e9a5d4a6f"
+      }
+    },
+    {
+      "artifact": "python3-typeguard_4.4.2-1_all.deb",
+      "name": "python3-typeguard",
+      "version": "4.4.2-1",
+      "architecture": "all",
+      "sha256": "81e512101d7ab94e73646b9a8e4fb9b948836e3172dc5719ad3acbcde65bca01",
+      "source_package": "python-typeguard",
+      "source_version": "4.4.2-1",
+      "upstream_homepage": "https://github.com/agronholm/typeguard",
+      "license_labels_from_copyright": [
+        "Expat"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-typeguard/copyright",
+          "path": "metadata/licenses/debian/python3-typeguard/copyright",
+          "sha256": "ef5def927b682080a4e022b91e528e7fbae0279d6120acff6b07fd29acf1a469"
+        }
+      ],
+      "license": "Expat",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python-typeguard",
+        "source_version": "4.4.2-1",
+        "binary_version": "4.4.2-1",
+        "artifact_sha256": "81e512101d7ab94e73646b9a8e4fb9b948836e3172dc5719ad3acbcde65bca01"
+      },
+      "source_locator": "https://sources.debian.org/src/python-typeguard/4.4.2-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/agronholm/typeguard"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-typeguard/control",
+        "sha256": "35cd1c79d7a0aa5a749ad8300b3240aaeee1063b5ae69cab3b552ef46f3d6d0b"
+      }
+    },
+    {
+      "artifact": "python3-typing-extensions_4.13.2-1_all.deb",
+      "name": "python3-typing-extensions",
+      "version": "4.13.2-1",
+      "architecture": "all",
+      "sha256": "b67662f211c35c17c74a0725bc7c8ffc3b126c650e2a2525593adee06f2bbf69",
+      "source_package": "python-typing-extensions",
+      "source_version": "4.13.2-1",
+      "upstream_homepage": "https://typing-extensions.readthedocs.io/en/latest/",
+      "license_labels_from_copyright": [
+        "PSF"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3-typing-extensions/copyright",
+          "path": "metadata/licenses/debian/python3-typing-extensions/copyright",
+          "sha256": "87d72fbdcc7f4a9017bae80c03c85b250aba733e75279589dd5244ab002a642f"
+        }
+      ],
+      "license": "PSF",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python-typing-extensions",
+        "source_version": "4.13.2-1",
+        "binary_version": "4.13.2-1",
+        "artifact_sha256": "b67662f211c35c17c74a0725bc7c8ffc3b126c650e2a2525593adee06f2bbf69"
+      },
+      "source_locator": "https://sources.debian.org/src/python-typing-extensions/4.13.2-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://pypi.python.org/pypi/typing-extensions"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3-typing-extensions/control",
+        "sha256": "230f8284d568bb72cd986ac7805dd62fa3cdf391f27d2f3cead710b488f726ba"
+      }
+    },
+    {
+      "artifact": "python3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+      "name": "python3.13-minimal",
+      "version": "3.13.5-2+deb13u5",
+      "architecture": "amd64",
+      "sha256": "c1fda9e7b1bf15b2fa75a238d8a8710e142fe14c722fc650c5fc614f078c9073",
+      "source_package": "python3.13",
+      "source_version": "3.13.5-2+deb13u5",
+      "upstream_homepage": null,
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3.13-minimal/copyright",
+          "path": "metadata/licenses/debian/python3.13-minimal/copyright",
+          "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3.13",
+        "source_version": "3.13.5-2+deb13u5",
+        "binary_version": "3.13.5-2+deb13u5",
+        "artifact_sha256": "c1fda9e7b1bf15b2fa75a238d8a8710e142fe14c722fc650c5fc614f078c9073"
+      },
+      "source_locator": "https://sources.debian.org/src/python3.13/3.13.5-2%2Bdeb13u5/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "It was downloaded from http://python.org/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3.13-minimal/control",
+        "sha256": "cbf30e6f981e4d84a9590f6a6e6d9e18b821eef27ab9877554834872b3442a4b"
+      }
+    },
+    {
+      "artifact": "python3.13_3.13.5-2+deb13u5_amd64.deb",
+      "name": "python3.13",
+      "version": "3.13.5-2+deb13u5",
+      "architecture": "amd64",
+      "sha256": "460c1fd72845516ac3ce9d1686916f3ab2e4c86f8a9746e14d26243a47e2b98d",
+      "source_package": "python3.13",
+      "source_version": "3.13.5-2+deb13u5",
+      "upstream_homepage": null,
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3.13/copyright",
+          "path": "metadata/licenses/debian/python3.13/copyright",
+          "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3.13",
+        "source_version": "3.13.5-2+deb13u5",
+        "binary_version": "3.13.5-2+deb13u5",
+        "artifact_sha256": "460c1fd72845516ac3ce9d1686916f3ab2e4c86f8a9746e14d26243a47e2b98d"
+      },
+      "source_locator": "https://sources.debian.org/src/python3.13/3.13.5-2%2Bdeb13u5/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "It was downloaded from http://python.org/"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3.13/control",
+        "sha256": "283c1ec6bd11d0a448433b9f46523d01f7fd7bbf3c611c0296ad9433eefe6a27"
+      }
+    },
+    {
+      "artifact": "python3_3.13.5-1_amd64.deb",
+      "name": "python3",
+      "version": "3.13.5-1",
+      "architecture": "amd64",
+      "sha256": "c1388174dc7140e6c19a6dd39f8a0dcb38a835cd66c65644e0dded43d5223cb0",
+      "source_package": "python3-defaults",
+      "source_version": "3.13.5-1",
+      "upstream_homepage": "https://www.python.org/",
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/python3/copyright",
+          "path": "metadata/licenses/debian/python3/copyright",
+          "sha256": "5b274dbb44b28a54b795b9471c07ab045054d6b8a86273cb9feb632b6fd2760d"
+        }
+      ],
+      "license": "Python license and incorporated-component licenses (complete bundled notice)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "python3-defaults",
+        "source_version": "3.13.5-1",
+        "binary_version": "3.13.5-1",
+        "artifact_sha256": "c1388174dc7140e6c19a6dd39f8a0dcb38a835cd66c65644e0dded43d5223cb0"
+      },
+      "source_locator": "https://sources.debian.org/src/python3-defaults/3.13.5-1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [],
+      "binary_control": {
+        "path": "metadata/licenses/debian/python3/control",
+        "sha256": "290264c5bfd81131bac5f5a668c777970379d8661470a2580df177cfcf6c7a42"
+      }
+    },
+    {
+      "artifact": "tmux_3.5a-3_amd64.deb",
+      "name": "tmux",
+      "version": "3.5a-3",
+      "architecture": "amd64",
+      "sha256": "e6b6aa51780044e2c4a0e618c33f832b70ec80caa30303e6c254a0c851b5af78",
+      "source_package": "tmux",
+      "source_version": "3.5a-3",
+      "upstream_homepage": "https://github.com/tmux/tmux/wiki",
+      "license_labels_from_copyright": [
+        "BSD-2-clause",
+        "BSD-2-clause or ISC",
+        "BSD-2-clause-NetBSD",
+        "BSD-3-clause",
+        "Expat",
+        "FSFUL",
+        "FSFULLR",
+        "ISC"
+      ],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/tmux/copyright",
+          "path": "metadata/licenses/debian/tmux/copyright",
+          "sha256": "9c587ac09a351692c23a910e4e59008d4a5ce66125c7aad1279065f3a272a3e1"
+        }
+      ],
+      "license": "BSD-2-clause; BSD-2-clause or ISC; BSD-2-clause-NetBSD; BSD-3-clause; Expat; FSFUL; FSFULLR; ISC",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "tmux",
+        "source_version": "3.5a-3",
+        "binary_version": "3.5a-3",
+        "artifact_sha256": "e6b6aa51780044e2c4a0e618c33f832b70ec80caa30303e6c254a0c851b5af78"
+      },
+      "source_locator": "https://sources.debian.org/src/tmux/3.5a-3/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "Source: https://github.com/tmux/tmux"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/tmux/control",
+        "sha256": "27809f30c247d8c76a6d22ed479dfe03f8e506cd2d38e98be9f6ba26f56afa66"
+      }
+    },
+    {
+      "artifact": "unzip_6.0-29+deb13u1_amd64.deb",
+      "name": "unzip",
+      "version": "6.0-29+deb13u1",
+      "architecture": "amd64",
+      "sha256": "fc11f8736bdec6fc46a6864f75bce0c8206a790df37dbcab5ddb25b1bf0f58f0",
+      "source_package": "unzip",
+      "source_version": "6.0-29+deb13u1",
+      "upstream_homepage": "https://infozip.sourceforge.net/UnZip.html",
+      "license_labels_from_copyright": [],
+      "license_notices": [
+        {
+          "package_path": "./usr/share/doc/unzip/copyright",
+          "path": "metadata/licenses/debian/unzip/copyright",
+          "sha256": "aacc60ee90cc889820675362044cce73adf6bd97ed39cf847bb902ccdf6a4b63"
+        }
+      ],
+      "license": "Info-ZIP (2009-Jan-02)",
+      "license_scope": "Package copyright inventory, preserving upstream labels and all component terms; not a normalized SPDX expression or a claim that every source-file license applies to the binary.",
+      "fixed_revision": {
+        "source_package": "unzip",
+        "source_version": "6.0-29+deb13u1",
+        "binary_version": "6.0-29+deb13u1",
+        "artifact_sha256": "fc11f8736bdec6fc46a6864f75bce0c8206a790df37dbcab5ddb25b1bf0f58f0"
+      },
+      "source_locator": "https://sources.debian.org/src/unzip/6.0-29%2Bdeb13u1/",
+      "source_locator_status": "Locator constructed from the binary control Source/Version fields; not a recorded source download.",
+      "upstream_source_statements": [
+        "ftp://ftp.info-zip.org/pub/infozip/src/unzip60.tgz",
+        "ftp://ftp.info-zip.org/pub/infozip/license.html indefinitely and"
+      ],
+      "binary_control": {
+        "path": "metadata/licenses/debian/unzip/control",
+        "sha256": "216d076912db6db73cee9eb879201c1ead04207a8461471a0d214bbcc91cf739"
+      }
+    }
+  ]
+}

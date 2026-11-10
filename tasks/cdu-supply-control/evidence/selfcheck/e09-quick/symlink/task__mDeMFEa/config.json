@@ -1,0 +1,14 @@
+{
+    "task": {
+        "path": "/opt/sb/codex167-official-campaign-20261106/task"
+    },
+    "trial_name": "task__mDeMFEa",
+    "trials_dir": "/opt/sb/codex167-official-campaign-20261106/e09-quick/symlink",
+    "agent": {
+        "name": "cdu_quick_e09:QuickProbe",
+        "kwargs": {
+            "probe": "symlink"
+        }
+    },
+    "job_id": "a29546d7-4c92-4125-b98d-228722a0a93c"
+}

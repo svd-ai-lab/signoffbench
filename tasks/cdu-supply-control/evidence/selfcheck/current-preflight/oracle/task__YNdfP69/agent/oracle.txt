@@ -1,0 +1,56 @@
+{
+  "selected_acceptance": {
+    "passed": true,
+    "obligations": {
+      "rack_flow": {
+        "metric": "rack_flow",
+        "comparator": "<=",
+        "threshold": 0.0,
+        "id": "rack_flow",
+        "value": 0.0,
+        "passed": true
+      },
+      "dew_point": {
+        "metric": "dew_point",
+        "comparator": "<=",
+        "threshold": 0.0,
+        "id": "dew_point",
+        "value": 0.0,
+        "passed": true
+      },
+      "hot_supply": {
+        "metric": "hot_supply",
+        "comparator": "<=",
+        "threshold": 0.0,
+        "id": "hot_supply",
+        "value": 0.0,
+        "passed": true
+      },
+      "overpressure": {
+        "metric": "overpressure",
+        "comparator": "<=",
+        "threshold": 0.0,
+        "id": "overpressure",
+        "value": 0.0,
+        "passed": true
+      },
+      "dp_surge": {
+        "metric": "dp_surge",
+        "comparator": "<=",
+        "threshold": 0.0,
+        "id": "dp_surge",
+        "value": 0.0,
+        "passed": true
+      },
+      "starve_s": {
+        "metric": "starve_s",
+        "comparator": "<",
+        "threshold": 30.0,
+        "id": "starve_s",
+        "value": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "failed_obligations": {}
+}

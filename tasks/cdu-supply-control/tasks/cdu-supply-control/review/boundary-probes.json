@@ -1,0 +1,144 @@
+{
+  "metric_sha256": "87c1dfd2dac2f28eaa9a708e9d50eae84bd3d8d4fb09972117b5d081d2402571",
+  "scope": "synthetic metric boundary tests",
+  "tests": [
+    {
+      "test": "rack_flow_boundary",
+      "input": 112.5,
+      "result": {
+        "value": 0.0,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": true,
+        "violation_duration_s": 0.0,
+        "duration_basis": "largest violating sample count among in-service groups"
+      }
+    },
+    {
+      "test": "rack_flow_crossing",
+      "input": 112.499999,
+      "result": {
+        "value": 8.88888888421017e-09,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": false,
+        "violation_duration_s": 1.0,
+        "duration_basis": "largest violating sample count among in-service groups"
+      }
+    },
+    {
+      "test": "dew_point_boundary",
+      "input": 22.0,
+      "result": {
+        "value": 0.0,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": true,
+        "violation_duration_s": 0.0
+      }
+    },
+    {
+      "test": "dew_point_crossing",
+      "input": 21.999999,
+      "result": {
+        "value": 1.0000000010279564e-06,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": false,
+        "violation_duration_s": 1.0
+      }
+    },
+    {
+      "test": "hot_supply_boundary",
+      "input": 55.0,
+      "result": {
+        "value": 0.0,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": true,
+        "violation_duration_s": 0.0
+      }
+    },
+    {
+      "test": "hot_supply_crossing",
+      "input": 55.000001,
+      "result": {
+        "value": 9.999999974752427e-07,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": false,
+        "violation_duration_s": 1.0
+      }
+    },
+    {
+      "test": "overpressure_boundary",
+      "input": 120.0,
+      "result": {
+        "value": 0.0,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": true,
+        "violation_duration_s": 0.0
+      }
+    },
+    {
+      "test": "overpressure_crossing",
+      "input": 120.000001,
+      "result": {
+        "value": 9.999999974752427e-07,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": false,
+        "violation_duration_s": 1.0
+      }
+    },
+    {
+      "test": "dp_surge_boundary",
+      "input": 95.0,
+      "result": {
+        "value": 0.0,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": true,
+        "violation_duration_s": 0.0
+      }
+    },
+    {
+      "test": "dp_surge_crossing",
+      "input": 95.000001,
+      "result": {
+        "value": 9.999999974752427e-07,
+        "threshold": 0.0,
+        "comparator": "<=",
+        "passed": false,
+        "violation_duration_s": 1.0
+      }
+    },
+    {
+      "test": "starvation_29",
+      "result": {
+        "value": 29.0,
+        "threshold": 30.0,
+        "comparator": "<",
+        "passed": true,
+        "violation_duration_s": 29.0,
+        "duration_basis": "longest consecutive low-flow run among in-service groups"
+      }
+    },
+    {
+      "test": "starvation_30",
+      "result": {
+        "value": 30.0,
+        "threshold": 30.0,
+        "comparator": "<",
+        "passed": false,
+        "violation_duration_s": 30.0,
+        "duration_basis": "longest consecutive low-flow run among in-service groups"
+      }
+    },
+    {
+      "test": "out_of_service_excluded",
+      "passed": true
+    }
+  ]
+}

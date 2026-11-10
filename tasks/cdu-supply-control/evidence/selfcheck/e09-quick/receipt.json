@@ -1,0 +1,98 @@
+[
+  {
+    "probe": "forge",
+    "started": 1793937760.6825044,
+    "finished": 1793937814.7769244,
+    "returncode": 0,
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/codex167-official-campaign-20261106/task",
+      "-a",
+      "cdu_quick_e09:QuickProbe",
+      "--ak",
+      "probe=forge",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/codex167-official-campaign-20261106/e09-quick",
+      "--job-name",
+      "forge"
+    ]
+  },
+  {
+    "probe": "nonfinite",
+    "started": 1793937814.7774932,
+    "finished": 1793937873.380044,
+    "returncode": 0,
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/codex167-official-campaign-20261106/task",
+      "-a",
+      "cdu_quick_e09:QuickProbe",
+      "--ak",
+      "probe=nonfinite",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/codex167-official-campaign-20261106/e09-quick",
+      "--job-name",
+      "nonfinite"
+    ]
+  },
+  {
+    "probe": "exit",
+    "started": 1793937873.3803759,
+    "finished": 1793937927.7674425,
+    "returncode": 0,
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/codex167-official-campaign-20261106/task",
+      "-a",
+      "cdu_quick_e09:QuickProbe",
+      "--ak",
+      "probe=exit",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/codex167-official-campaign-20261106/e09-quick",
+      "--job-name",
+      "exit"
+    ]
+  },
+  {
+    "probe": "symlink",
+    "started": 1793937927.7678068,
+    "finished": 1793937978.2628665,
+    "returncode": 0,
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/codex167-official-campaign-20261106/task",
+      "-a",
+      "cdu_quick_e09:QuickProbe",
+      "--ak",
+      "probe=symlink",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/codex167-official-campaign-20261106/e09-quick",
+      "--job-name",
+      "symlink"
+    ]
+  }
+]

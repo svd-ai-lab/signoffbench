@@ -1,0 +1,72 @@
+[
+  {
+    "run": "normal01",
+    "group": "score-selected-five-of-completed-runs",
+    "trial_id": "task__Z5g8eNm",
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+    "trajectory": "evidence/model-runs/normal01/task__Z5g8eNm/agent/trajectory.json",
+    "native_report": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/report.json",
+    "native_ctrf": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/ctrf.json",
+    "native_reward": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/reward.txt",
+    "candidate": "evidence/model-runs/normal01/task__Z5g8eNm/artifacts/app/submission/controller.py",
+    "trajectory_sha256": "132d1b113d16f53fb832aa5254bf495a1a129cd299e1bcf25079890627bc04bf",
+    "candidate_sha256": "dd0c8ebac31216b9979b0601a6c38d3936e05d3216949a3f36275b90bb36c5c2"
+  },
+  {
+    "run": "normal02",
+    "group": "score-selected-five-of-completed-runs",
+    "trial_id": "task__hBinc5P",
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+    "trajectory": "evidence/model-runs/normal02/task__hBinc5P/agent/trajectory.json",
+    "native_report": "evidence/model-runs/normal02/task__hBinc5P/verifier/report.json",
+    "native_ctrf": "evidence/model-runs/normal02/task__hBinc5P/verifier/ctrf.json",
+    "native_reward": "evidence/model-runs/normal02/task__hBinc5P/verifier/reward.txt",
+    "candidate": "evidence/model-runs/normal02/task__hBinc5P/artifacts/app/submission/controller.py",
+    "trajectory_sha256": "2eb6864a6b470c833daf0c3a26f42c51765b7af0e20ddeae43daf5e566a8670e",
+    "candidate_sha256": "76b1916fde295c872a4eba6adecd4548fd8dabac4356cdd9dea362d73c8ce251"
+  },
+  {
+    "run": "normal03",
+    "group": "score-selected-five-of-completed-runs",
+    "trial_id": "task__Dkf2kmM",
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+    "trajectory": "evidence/model-runs/normal03/task__Dkf2kmM/agent/trajectory.json",
+    "native_report": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/report.json",
+    "native_ctrf": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/ctrf.json",
+    "native_reward": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/reward.txt",
+    "candidate": "evidence/model-runs/normal03/task__Dkf2kmM/artifacts/app/submission/controller.py",
+    "trajectory_sha256": "0f829af0c843cd18618a90bc40910795eba5cd7cef97b3e124a68fced5cf7f31",
+    "candidate_sha256": "0557cb5d624b9500df0ce216a790326b2d3f828737540a2af889788703ec3edb"
+  },
+  {
+    "run": "normal04",
+    "group": "score-selected-five-of-completed-runs",
+    "trial_id": "task__gp5bXib",
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+    "trajectory": "evidence/model-runs/normal04/task__gp5bXib/agent/trajectory.json",
+    "native_report": "evidence/model-runs/normal04/task__gp5bXib/verifier/report.json",
+    "native_ctrf": "evidence/model-runs/normal04/task__gp5bXib/verifier/ctrf.json",
+    "native_reward": "evidence/model-runs/normal04/task__gp5bXib/verifier/reward.txt",
+    "candidate": "evidence/model-runs/normal04/task__gp5bXib/artifacts/app/submission/controller.py",
+    "trajectory_sha256": "dc58c503f866c9203e66a23864a1839dec0207519bb41540dc02279b8a406cfc",
+    "candidate_sha256": "cbddfaa3fc0a03d1ba071b379a18e35c0b8d895e4ec992e15d7bdc2b31de3a13"
+  },
+  {
+    "run": "normal05",
+    "group": "score-selected-five-of-completed-runs",
+    "trial_id": "task__DKvdeP2",
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+    "trajectory": "evidence/model-runs/normal05/task__DKvdeP2/agent/trajectory.json",
+    "native_report": "evidence/model-runs/normal05/task__DKvdeP2/verifier/report.json",
+    "native_ctrf": "evidence/model-runs/normal05/task__DKvdeP2/verifier/ctrf.json",
+    "native_reward": "evidence/model-runs/normal05/task__DKvdeP2/verifier/reward.txt",
+    "candidate": "evidence/model-runs/normal05/task__DKvdeP2/artifacts/app/submission/controller.py",
+    "trajectory_sha256": "31740769ef2abe444484767951026cb005b5fbf55eb8e82fdda42c8fc427538a",
+    "candidate_sha256": "d2054b331fe4b5f915262e7bf0a7f9eaee726507d369dc729fd871c75ce341fc"
+  }
+]

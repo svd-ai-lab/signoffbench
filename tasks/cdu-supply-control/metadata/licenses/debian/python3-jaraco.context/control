@@ -1,0 +1,14 @@
+Package: python3-jaraco.context
+Source: jaraco.context
+Version: 6.0.1-1+deb13u1
+Architecture: all
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 36
+Depends: python3-setuptools | python3-supported-min (>= 3.12), python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/jaraco/jaraco.context
+Description: jaraco contextlib extensions
+ Various context managers extending functionality of Python's
+ contextlib, mostly needed as a dependency of other projects
+ involving the same upstream developer.

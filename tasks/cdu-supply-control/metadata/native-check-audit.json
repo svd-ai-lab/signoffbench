@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scope": "unchanged native outputs; score-selected five from completed runs",
+  "recovered_scoring": false,
+  "runs": [
+    {
+      "run": "normal01",
+      "reward": 0.0,
+      "checks": 186,
+      "passed": 185,
+      "failed": 1,
+      "passed_cases": 30,
+      "native_ctrf_sha256": "d8767587af68fdafedbe4dd98dd4cfdd9819331f29e0baa935663fac84047899",
+      "native_report_sha256": "53d5c11e907f451b3b9a3ee356f0b68f825767563fd68ab2187efea6f34b9397"
+    },
+    {
+      "run": "normal02",
+      "reward": 0.0,
+      "checks": 186,
+      "passed": 181,
+      "failed": 5,
+      "passed_cases": 26,
+      "native_ctrf_sha256": "2753935aa46abb79ec37ef5f69b50ee3c65cb30edf960066a33619a030dea03d",
+      "native_report_sha256": "04bcdf539d49e6b0d9af070a9a17771ab1b935e273579b52dfbeadda06ec5c03"
+    },
+    {
+      "run": "normal03",
+      "reward": 1.0,
+      "checks": 186,
+      "passed": 186,
+      "failed": 0,
+      "passed_cases": 31,
+      "native_ctrf_sha256": "35195b880d7183cd04fddc745b0365bbcfd8319900eba2e01a21b9dcc237d437",
+      "native_report_sha256": "912bc395483f505cf642c5ec9ab54ca1bf574a4066ae51334d06b2abcb238ea0"
+    },
+    {
+      "run": "normal04",
+      "reward": 0.0,
+      "checks": 186,
+      "passed": 185,
+      "failed": 1,
+      "passed_cases": 30,
+      "native_ctrf_sha256": "54b6be8d0e81fc69579f02b590744f49be7b06741abef7f4cb0c9977d9acbcd8",
+      "native_report_sha256": "3efc14bcde87857c384c3b3c63c83b6c58291ba6f884bc83ac114e0320763220"
+    },
+    {
+      "run": "normal05",
+      "reward": 0.0,
+      "checks": 186,
+      "passed": 184,
+      "failed": 2,
+      "passed_cases": 30,
+      "native_ctrf_sha256": "d54503f9567a3fbf83961d88d45bcf5165225b54d50b37fc8dcb2014aaa0fb8e",
+      "native_report_sha256": "cd6920a41794b00c3b816c00fc0cef509536e84f3e4682e2363e8f7efd419f19"
+    }
+  ]
+}

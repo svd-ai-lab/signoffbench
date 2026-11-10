@@ -1,0 +1,15 @@
+Package: asciinema
+Version: 2.4.0-1
+Architecture: all
+Maintainer: gustavo panizzo <gfa@zumbi.com.ar>
+Installed-Size: 185
+Depends: python3:any, python3-pkg-resources
+Section: utils
+Priority: optional
+Homepage: https://asciinema.org
+Description: Record and share your terminal sessions, the right way
+ Forget screen recording apps and blurry video. Enjoy a lightweight,
+ purely text based approach to terminal recording.
+ .
+ This package provides a command line recorder for asciinema.org service
+ or other instance of asciinema server.

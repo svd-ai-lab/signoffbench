@@ -1,0 +1,18 @@
+Package: python3-minimal
+Source: python3-defaults
+Version: 3.13.5-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 112
+Pre-Depends: python3.13-minimal (>= 3.13.5-1~)
+Depends: dpkg (>= 1.13.20)
+Section: python
+Priority: optional
+Multi-Arch: allowed
+Homepage: https://www.python.org/
+Description: minimal subset of the Python language (default python3 version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python3.13-minimal/README.Debian for a list of the modules
+ contained in this package.
+Cnf-Visible-Pkgname: python3

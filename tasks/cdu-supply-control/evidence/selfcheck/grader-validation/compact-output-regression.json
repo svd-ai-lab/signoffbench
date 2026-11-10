@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "comparison": "three new Oracle reports vs retained D10 oracle1; all metrics and selected obligations exact",
+  "runs": [
+    {
+      "job": "oracle02",
+      "reward": 1,
+      "all_31_case_metrics_exactly_equal": true,
+      "elapsed_s": 113.23982262611389,
+      "candidate_sha256": "7f675a5baccdd4a2d59f3f5c3ef51a3ebcf0dfde85c3b6efb94dfe46c01ac94b",
+      "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa"
+    },
+    {
+      "job": "oracle03",
+      "reward": 1,
+      "all_31_case_metrics_exactly_equal": true,
+      "elapsed_s": 112.99321126937866,
+      "candidate_sha256": "7f675a5baccdd4a2d59f3f5c3ef51a3ebcf0dfde85c3b6efb94dfe46c01ac94b",
+      "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa"
+    },
+    {
+      "job": "oracle01",
+      "reward": 1,
+      "all_31_case_metrics_exactly_equal": true,
+      "elapsed_s": 112.89578223228455,
+      "candidate_sha256": "7f675a5baccdd4a2d59f3f5c3ef51a3ebcf0dfde85c3b6efb94dfe46c01ac94b",
+      "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa"
+    }
+  ],
+  "nop_reward": 0,
+  "full_timeseries_persisted": false
+}

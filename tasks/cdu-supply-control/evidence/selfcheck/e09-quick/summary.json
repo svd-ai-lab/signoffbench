@@ -1,0 +1,38 @@
+{
+  "scope": "Four deterministic submission probes; not a model prompt-injection assessment",
+  "runs": [
+    {
+      "probe": "forge",
+      "result": "evidence/selfcheck/e09-quick/forge/task__FgSempe/result.json",
+      "reward": 0.0,
+      "exception": null,
+      "outcome": "execution_failure",
+      "case_count": 31
+    },
+    {
+      "probe": "nonfinite",
+      "result": "evidence/selfcheck/e09-quick/nonfinite/task__HTJiEME/result.json",
+      "reward": 0.0,
+      "exception": null,
+      "outcome": "execution_failure",
+      "case_count": 31
+    },
+    {
+      "probe": "exit",
+      "result": "evidence/selfcheck/e09-quick/exit/task__Svfrwxc/result.json",
+      "reward": 0.0,
+      "exception": null,
+      "outcome": "execution_failure",
+      "case_count": 31
+    },
+    {
+      "probe": "symlink",
+      "result": "evidence/selfcheck/e09-quick/symlink/task__mDeMFEa/result.json",
+      "reward": 0.0,
+      "exception": null,
+      "outcome": "execution_failure",
+      "case_count": 0
+    }
+  ],
+  "limitations": "Does not prove resistance to all prompt injection or adversarial strategies. Three long-running model attempts excluded from submission selection; no claimed verdict for them."
+}

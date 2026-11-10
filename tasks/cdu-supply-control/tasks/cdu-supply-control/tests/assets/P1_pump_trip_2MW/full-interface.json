@@ -1,0 +1,371 @@
+{
+  "case": "P1_pump_trip_2MW",
+  "fluid": "water",
+  "scan_s": 0.5,
+  "commands": [
+    "pumpA_cmd",
+    "pumpB_cmd",
+    "pumpC_cmd",
+    "valve_cmd",
+    "alm_pump",
+    "alm_tsensor",
+    "alm_dpsensor",
+    "alm_flowmeter",
+    "alm_valve"
+  ],
+  "observations": [
+    "T_sup1",
+    "T_sup2",
+    "T_ret",
+    "P_sup",
+    "P_ret",
+    "dP1",
+    "dP2",
+    "F_sec",
+    "T_fs",
+    "T_fr",
+    "P_fs",
+    "P_fr",
+    "valve_pos",
+    "spdA",
+    "spdB",
+    "spdC",
+    "kWA",
+    "kWB",
+    "kWC",
+    "faultA",
+    "faultB",
+    "faultC",
+    "dew"
+  ],
+  "truth_names": [
+    "t",
+    "T_sup",
+    "T_ret",
+    "P_sup",
+    "P_ret",
+    "F_sec",
+    "T_fs",
+    "T_fr",
+    "P_fs",
+    "P_fr",
+    "valve_pos",
+    "spdA",
+    "spdB",
+    "spdC",
+    "kWA",
+    "kWB",
+    "kWC",
+    "faultA",
+    "faultB",
+    "faultC",
+    "F_prim",
+    "F_g1",
+    "F_g2",
+    "F_g3",
+    "F_g4",
+    "Tcase_g1",
+    "Tcase_g2",
+    "Tcase_g3",
+    "Tcase_g4",
+    "Q_it",
+    "q_pumpA",
+    "q_pumpB",
+    "q_pumpC",
+    "q_reverse",
+    "dP",
+    "dew",
+    "T_fws",
+    "dp_fac",
+    "err_T_sup1",
+    "err_T_sup2",
+    "err_dP1",
+    "err_dP2",
+    "err_F_sec",
+    "pumpA_cmd",
+    "pumpB_cmd",
+    "pumpC_cmd",
+    "valve_cmd",
+    "alm_pump",
+    "alm_tsensor",
+    "alm_dpsensor",
+    "alm_flowmeter",
+    "alm_valve"
+  ],
+  "scenario": {
+    "name": "P1_pump_trip_2MW",
+    "set": "public",
+    "what": "Pump A VFD fault trip at 2 MW (spec 20.13 motor-lock / over-temperature shut-off), stays down; load bank 2.0 -> 1.5 -> 2.0 MW",
+    "fluid": "water",
+    "ua": 1,
+    "tend": 1200,
+    "T0s": 33,
+    "valve0": 50,
+    "spd0": 0,
+    "seed": 11,
+    "load": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        800,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        805,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      [
+        1000,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      [
+        1005,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        100000,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "Tfws": [
+      [
+        0,
+        30
+      ],
+      [
+        100000,
+        30
+      ]
+    ],
+    "dpfac": [
+      [
+        0,
+        25
+      ],
+      [
+        100000,
+        25
+      ]
+    ],
+    "dew": [
+      [
+        0,
+        12
+      ],
+      [
+        100000,
+        12
+      ]
+    ],
+    "iso": [
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        100000,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "drv": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        499.99,
+        0,
+        0,
+        0
+      ],
+      [
+        500,
+        1,
+        0,
+        0
+      ],
+      [
+        100000,
+        1,
+        0,
+        0
+      ]
+    ],
+    "chk": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        100000,
+        0,
+        0,
+        0
+      ]
+    ],
+    "wear": [
+      1,
+      1,
+      1
+    ],
+    "pump_head": [
+      1,
+      1,
+      1
+    ],
+    "pump_flow": [
+      1,
+      1,
+      1
+    ],
+    "pump_eff": [
+      1,
+      1,
+      1
+    ],
+    "wear_eff": [
+      1,
+      1,
+      1
+    ],
+    "valve_R": 50,
+    "valve_Cv_factor": 1,
+    "valve_shape": 0,
+    "valve_stroke_factor": 1,
+    "sensor_bias": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sensor_drift": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sensor_noise_mult": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sensor_gain": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sf": [
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ],
+      [
+        1000000000.0,
+        0,
+        0
+      ]
+    ],
+    "vf": [
+      1000000000.0,
+      0,
+      0,
+      0,
+      1000000000.0
+    ],
+    "ev": [
+      500,
+      800,
+      1000
+    ]
+  },
+  "command_delay_location": "python_previous_scan_buffer",
+  "command_delay_s": 0.5,
+  "command_buffer_initial": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fmi_version": "3.0",
+  "runtime_semantics": "fmi3-event-external-one-scan-v1"
+}

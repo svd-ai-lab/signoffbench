@@ -1,0 +1,7 @@
+deliverable,status,file,notes
+task,provided,tasks/cdu-supply-control/,English task statement; runtime environment and independent verifier
+5-run evidence,verified,metadata/trajectory_index.json,5 selected from 6 completed; selected 1/5; completed group 1/6; native steps complete
+statistics,verified,metadata/trial_metrics.csv;metadata/check_level_results.csv,930 items
+self-check,quality check passed,reports/selfcheck.md,33 pass / 0 fail / 2 N/A; adversarial self-check has bounded coverage
+large assets,FMU included,metadata/file_manifest.json;metadata/build-dependencies.json,only FMUs ship with the package; images pulled by digest; wheels/debs downloaded by pinned hash
+file manifest,rebuilt on update,metadata/file_manifest.json,file size and SHA-256

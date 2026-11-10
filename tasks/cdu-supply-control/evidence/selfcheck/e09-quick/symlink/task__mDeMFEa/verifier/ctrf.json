@@ -1,0 +1,25 @@
+{
+  "results": {
+    "tool": {
+      "name": "native-fmu"
+    },
+    "summary": {
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "tests": 1,
+      "start": 1793937961976,
+      "stop": 1793937961976
+    },
+    "tests": [
+      {
+        "name": "controller_execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "submission/controller.py must be a regular file"
+      }
+    ]
+  }
+}

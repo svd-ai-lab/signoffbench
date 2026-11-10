@@ -1,0 +1,7 @@
+[
+  {
+    "path": "e09-quick/symlink/task__mDeMFEa/artifacts/app/submission/controller.py",
+    "link_target": "/tests/grade.py",
+    "reason": "Represent absolute attack symlink as metadata; do not materialize on operator host"
+  }
+]

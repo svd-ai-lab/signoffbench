@@ -1,0 +1,1760 @@
+{
+  "scope": "Derived verbatim metrics from frozen historical native reports; not a new run of the revised instruction",
+  "runs": [
+    {
+      "run": "normal01",
+      "source_report": "evidence/model-runs/normal01/task__WGw5DGW/verifier/report.json",
+      "source_report_sha256": "314f6f103e0c44baacbd9a0cca5357fe47e867c3f532116b655a53451c0ed780",
+      "candidate_sha256": "d0cbc981d7c47bcb0de17f4e728629da6a07b5f5e06d2e8bd66b49a4d4a3bb6f",
+      "reward": 0,
+      "execution_valid": true,
+      "cases": {
+        "P1_pump_trip_2MW": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P2_mains_loss_pumpB": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P3_rtd_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P4_dp_transmitter_open": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P5_valve_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P6_rack_group_service": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H01_trip_worn_survivor": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H02_worn_pump_sharing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H03_check_valve_passing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H04_rtd_stuck_fws_change": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H05_rtd_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H06_dp_drift_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H07_dp_noise_training": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H08_flowmeter_stuck_isolation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H09_valve_seized_release": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H10_mains_loss_half_row": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.8426955588625731,
+            "dp_surge": 120.40531978846253,
+            "starve_s": 0.0
+          },
+          "passed": false
+        },
+        "H11_rtd_noise_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H12_two_sags_humid": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H13_rtd2_drift_condensation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H14_rtd2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H15_rtd1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H16_rtd1_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H17_dp1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H18_dp1_positive_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H19_dp2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H20_dp2_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H21_dp2_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H22_flowmeter_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H23_flowmeter_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H24_flowmeter_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H25_intermittent_rtd2_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "run": "normal02",
+      "source_report": "evidence/model-runs/normal02/task__CAzpbbv/verifier/report.json",
+      "source_report_sha256": "f1419007baf0e6a3fa4cea439f401f2ad3c7c98303e990391f145443a8ceea53",
+      "candidate_sha256": "dc0c57308120504b4fce3f3e9a5f6679507b8ef498079703bde37637158b0fee",
+      "reward": 0,
+      "execution_valid": true,
+      "cases": {
+        "P1_pump_trip_2MW": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P2_mains_loss_pumpB": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P3_rtd_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P4_dp_transmitter_open": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P5_valve_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P6_rack_group_service": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H01_trip_worn_survivor": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H02_worn_pump_sharing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H03_check_valve_passing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H04_rtd_stuck_fws_change": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H05_rtd_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H06_dp_drift_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H07_dp_noise_training": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H08_flowmeter_stuck_isolation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H09_valve_seized_release": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H10_mains_loss_half_row": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 11.346881654022894,
+            "starve_s": 0.0
+          },
+          "passed": false
+        },
+        "H11_rtd_noise_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H12_two_sags_humid": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H13_rtd2_drift_condensation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 237.10153574442768,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": false
+        },
+        "H14_rtd2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H15_rtd1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H16_rtd1_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H17_dp1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H18_dp1_positive_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H19_dp2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H20_dp2_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H21_dp2_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H22_flowmeter_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H23_flowmeter_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H24_flowmeter_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H25_intermittent_rtd2_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "run": "normal03",
+      "source_report": "evidence/model-runs/normal03/task__FavBuhZ/verifier/report.json",
+      "source_report_sha256": "5f25cbf6703dd0693d699c7a1f9731750520ed18c7c4035dbc66ad8b87540ed1",
+      "candidate_sha256": "99ed1c1a578091e5eceba52e5b7a176e77f47319596b646d87775a214ac990a1",
+      "reward": 1,
+      "execution_valid": true,
+      "cases": {
+        "P1_pump_trip_2MW": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P2_mains_loss_pumpB": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P3_rtd_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P4_dp_transmitter_open": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P5_valve_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P6_rack_group_service": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H01_trip_worn_survivor": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H02_worn_pump_sharing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H03_check_valve_passing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H04_rtd_stuck_fws_change": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H05_rtd_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H06_dp_drift_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H07_dp_noise_training": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H08_flowmeter_stuck_isolation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H09_valve_seized_release": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H10_mains_loss_half_row": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H11_rtd_noise_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H12_two_sags_humid": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H13_rtd2_drift_condensation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H14_rtd2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H15_rtd1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H16_rtd1_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H17_dp1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H18_dp1_positive_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H19_dp2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H20_dp2_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H21_dp2_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H22_flowmeter_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H23_flowmeter_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H24_flowmeter_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H25_intermittent_rtd2_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "run": "normal04",
+      "source_report": "evidence/model-runs/normal04/task__fgSDbbd/verifier/report.json",
+      "source_report_sha256": "495bdc8fc9c76c76698877378615cdae5d8f094d29b9c56ac3c1968f5de2a4e6",
+      "candidate_sha256": "0f76794d411269020888d450b16c4b68ebb6117f66e5536b3f00af62405e6df9",
+      "reward": 0,
+      "execution_valid": true,
+      "cases": {
+        "P1_pump_trip_2MW": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P2_mains_loss_pumpB": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P3_rtd_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P4_dp_transmitter_open": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P5_valve_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P6_rack_group_service": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H01_trip_worn_survivor": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H02_worn_pump_sharing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H03_check_valve_passing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H04_rtd_stuck_fws_change": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H05_rtd_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H06_dp_drift_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H07_dp_noise_training": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H08_flowmeter_stuck_isolation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H09_valve_seized_release": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H10_mains_loss_half_row": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 148.06941444009516,
+            "dp_surge": 763.7777303194384,
+            "starve_s": 0.0
+          },
+          "passed": false
+        },
+        "H11_rtd_noise_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H12_two_sags_humid": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H13_rtd2_drift_condensation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H14_rtd2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H15_rtd1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H16_rtd1_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H17_dp1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H18_dp1_positive_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H19_dp2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H20_dp2_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H21_dp2_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H22_flowmeter_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H23_flowmeter_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H24_flowmeter_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H25_intermittent_rtd2_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "run": "normal05",
+      "source_report": "evidence/model-runs/normal05/task__hSRYkxg/verifier/report.json",
+      "source_report_sha256": "da6cac0c5e722a88a6e6eee17d09be1cfa0526e3ad64bc1eafa581ed3a8df817",
+      "candidate_sha256": "a35317c3d933b079ed3a0273400da464fb4a4ce39bb2926a2a61a713345a7afe",
+      "reward": 1,
+      "execution_valid": true,
+      "cases": {
+        "P1_pump_trip_2MW": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P2_mains_loss_pumpB": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P3_rtd_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P4_dp_transmitter_open": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P5_valve_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "P6_rack_group_service": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H01_trip_worn_survivor": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H02_worn_pump_sharing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H03_check_valve_passing": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H04_rtd_stuck_fws_change": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H05_rtd_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H06_dp_drift_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H07_dp_noise_training": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H08_flowmeter_stuck_isolation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H09_valve_seized_release": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H10_mains_loss_half_row": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H11_rtd_noise_then_trip": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H12_two_sags_humid": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H13_rtd2_drift_condensation": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H14_rtd2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H15_rtd1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H16_rtd1_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H17_dp1_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H18_dp1_positive_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H19_dp2_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H20_dp2_stuck": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H21_dp2_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H22_flowmeter_open_circuit": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H23_flowmeter_drift": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H24_flowmeter_noise": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        },
+        "H25_intermittent_rtd2_stiction": {
+          "metrics": {
+            "rack_flow": 0.0,
+            "dew_point": 0.0,
+            "hot_supply": 0.0,
+            "overpressure": 0.0,
+            "dp_surge": 0.0,
+            "starve_s": 0.0
+          },
+          "passed": true
+        }
+      }
+    }
+  ]
+}

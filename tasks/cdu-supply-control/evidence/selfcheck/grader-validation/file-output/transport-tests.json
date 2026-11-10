@@ -1,0 +1,46 @@
+{
+  "tests": [
+    {
+      "test": "normal",
+      "passed": true,
+      "elapsed_s": 0.22328298701904714,
+      "error": null
+    },
+    {
+      "test": "stderr_burst",
+      "passed": true,
+      "elapsed_s": 0.2234091489808634,
+      "error": null
+    },
+    {
+      "test": "detached_writer",
+      "passed": true,
+      "elapsed_s": 0.21873341302853078,
+      "error": "RuntimeError"
+    },
+    {
+      "test": "silent",
+      "passed": true,
+      "elapsed_s": 0.5560633540153503,
+      "error": "TimeoutError"
+    },
+    {
+      "test": "input_backpressure",
+      "passed": true,
+      "elapsed_s": 0.5565209190826863,
+      "error": "TimeoutError"
+    },
+    {
+      "test": "oversized_output",
+      "passed": true,
+      "elapsed_s": 0.2237417020369321,
+      "error": "ValueError"
+    },
+    {
+      "test": "incomplete_line",
+      "passed": true,
+      "elapsed_s": 0.5564836380071938,
+      "error": "TimeoutError"
+    }
+  ]
+}

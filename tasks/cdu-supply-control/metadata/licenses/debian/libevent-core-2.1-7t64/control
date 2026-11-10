@@ -1,0 +1,28 @@
+Package: libevent-core-2.1-7t64
+Source: libevent
+Version: 2.1.13-stable-1~deb13u1
+Architecture: amd64
+Maintainer: Nicolas Mora <babelouest@debian.org>
+Installed-Size: 306
+Depends: libc6 (>= 2.38)
+Breaks: libevent-core-2.1-7 (<< 2.1.13-stable-1~deb13u1)
+Replaces: libevent-core-2.1-7
+Provides: libevent-core-2.1-7 (= 2.1.13-stable-1~deb13u1)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://libevent.org/
+Description: Asynchronous event notification library (core)
+ Libevent is an asynchronous event notification library that provides a
+ mechanism to execute a callback function when a specific event occurs
+ on a file descriptor or after a timeout has been reached.
+ .
+ It is meant to replace the asynchronous event loop found in
+ event driven network servers. Currently, libevent supports /dev/poll,
+ kqueue(2), event ports, select(2), poll(2) and epoll(4).
+ .
+ The libevent_core library includes event loops, timers, buffer code,
+ and various small compatibility functions.
+ .
+ If you're writing software that only uses libevent's event loop, you
+ should link against only the libevent_core library.

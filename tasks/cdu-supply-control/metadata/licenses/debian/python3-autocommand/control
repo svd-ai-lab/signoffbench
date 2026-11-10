@@ -1,0 +1,18 @@
+Package: python3-autocommand
+Source: python-autocommand
+Version: 2.2.2-3
+Architecture: all
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 61
+Depends: python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/Lucretiel/autocommand
+Description: library to generate argparse parsers from function signatures
+ Autocommand is a library to automatically generate and run simple argparse
+ parsers from function signatures.
+ .
+ It turns a function into a command-line program, converting the function's
+ parameter signature into command-line arguments, and automatically running
+ the function with these arguments if the module was called as __main__.
+ Usage messages, invoked with -h or --help, are also created automatically.

@@ -1,0 +1,20 @@
+[
+  {
+    "role": "environment",
+    "image_id": "sha256:d0f33354224a751e68fc63814aaffcf136b984255c19b0abda1a502aa8f46c89",
+    "archive": "environment-image.tar.gz",
+    "bytes": 436822828,
+    "sha256": "7b3bd251729df63447f7beb3653d0d6446d28319785111609db559100a5d9bdb",
+    "compression": "gzip -1 over docker save",
+    "elapsed_s": 17.24628210067749
+  },
+  {
+    "role": "tests",
+    "image_id": "sha256:b4b93ffaafb81e318ff700f42e056c4871250fa120e1090243e81fcf370f478e",
+    "archive": "tests-image.tar.gz",
+    "bytes": 388126724,
+    "sha256": "62cf2bc834f715b4f418e28948f02aeab42aa7b1f900f5154a086ec151a68b7a",
+    "compression": "gzip -1 over docker save",
+    "elapsed_s": 15.201396703720093
+  }
+]

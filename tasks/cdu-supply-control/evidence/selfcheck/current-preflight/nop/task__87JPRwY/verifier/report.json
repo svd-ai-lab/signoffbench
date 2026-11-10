@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "scope": "supply-six-all31",
+  "started_unix": 1793983096.7705038,
+  "cases": {
+    "P1_pump_trip_2MW": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "P2_mains_loss_pumpB": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "P3_rtd_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "P4_dp_transmitter_open": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "P5_valve_stiction": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "P6_rack_group_service": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H01_trip_worn_survivor": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H02_worn_pump_sharing": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H03_check_valve_passing": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H04_rtd_stuck_fws_change": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H05_rtd_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H06_dp_drift_then_trip": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H07_dp_noise_training": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H08_flowmeter_stuck_isolation": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H09_valve_seized_release": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H10_mains_loss_half_row": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H11_rtd_noise_then_trip": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H12_two_sags_humid": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H13_rtd2_drift_condensation": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H14_rtd2_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H15_rtd1_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H16_rtd1_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H17_dp1_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H18_dp1_positive_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H19_dp2_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H20_dp2_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H21_dp2_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H22_flowmeter_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H23_flowmeter_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H24_flowmeter_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    },
+    "H25_intermittent_rtd2_stiction": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "RuntimeError",
+        "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+      }
+    }
+  },
+  "reward": 0,
+  "candidate_sha256": "3983922cfd9034debbbf35ecab667c59a5c1940a6a203e4e7073d94dbf8e1032",
+  "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+  "profile_version": "procurement-cdu-supply-six-all31-v1",
+  "workers": 4,
+  "case_errors": {
+    "P1_pump_trip_2MW": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "P2_mains_loss_pumpB": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "P3_rtd_drift": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "P4_dp_transmitter_open": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "P5_valve_stiction": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "P6_rack_group_service": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H01_trip_worn_survivor": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H02_worn_pump_sharing": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H03_check_valve_passing": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H04_rtd_stuck_fws_change": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H05_rtd_open_circuit": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H06_dp_drift_then_trip": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H07_dp_noise_training": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H08_flowmeter_stuck_isolation": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H09_valve_seized_release": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H10_mains_loss_half_row": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H11_rtd_noise_then_trip": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H12_two_sags_humid": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H13_rtd2_drift_condensation": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H14_rtd2_open_circuit": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H15_rtd1_stuck": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H16_rtd1_noise": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H17_dp1_stuck": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H18_dp1_positive_drift": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H19_dp2_open_circuit": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H20_dp2_stuck": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H21_dp2_noise": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H22_flowmeter_open_circuit": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H23_flowmeter_drift": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H24_flowmeter_noise": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    },
+    "H25_intermittent_rtd2_stiction": {
+      "type": "RuntimeError",
+      "message": "controller step failed: {'type': 'fatal', 'error': 'NotImplementedError: Implement the control release'}"
+    }
+  },
+  "error": {
+    "type": "CaseExecutionError",
+    "message": "Execution failure in: P1_pump_trip_2MW, P2_mains_loss_pumpB, P3_rtd_drift, P4_dp_transmitter_open, P5_valve_stiction, P6_rack_group_service, H01_trip_worn_survivor, H02_worn_pump_sharing, H03_check_valve_passing, H04_rtd_stuck_fws_change, H05_rtd_open_circuit, H06_dp_drift_then_trip, H07_dp_noise_training, H08_flowmeter_stuck_isolation, H09_valve_seized_release, H10_mains_loss_half_row, H11_rtd_noise_then_trip, H12_two_sags_humid, H13_rtd2_drift_condensation, H14_rtd2_open_circuit, H15_rtd1_stuck, H16_rtd1_noise, H17_dp1_stuck, H18_dp1_positive_drift, H19_dp2_open_circuit, H20_dp2_stuck, H21_dp2_noise, H22_flowmeter_open_circuit, H23_flowmeter_drift, H24_flowmeter_noise, H25_intermittent_rtd2_stiction"
+  },
+  "outcome": "execution_failure",
+  "execution_valid": false,
+  "finished_unix": 1793983101.0229826,
+  "elapsed_s": 4.252479076385498
+}

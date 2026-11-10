@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "scope": "supply-six-all31",
+  "started_unix": 1793937794.9864755,
+  "cases": {
+    "P1_pump_trip_2MW": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "P2_mains_loss_pumpB": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "P3_rtd_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "P4_dp_transmitter_open": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "P5_valve_stiction": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "P6_rack_group_service": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H01_trip_worn_survivor": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H02_worn_pump_sharing": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H03_check_valve_passing": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H04_rtd_stuck_fws_change": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H05_rtd_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H06_dp_drift_then_trip": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H07_dp_noise_training": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H08_flowmeter_stuck_isolation": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H09_valve_seized_release": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H10_mains_loss_half_row": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H11_rtd_noise_then_trip": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H12_two_sags_humid": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H13_rtd2_drift_condensation": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H14_rtd2_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H15_rtd1_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H16_rtd1_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H17_dp1_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H18_dp1_positive_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H19_dp2_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H20_dp2_stuck": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H21_dp2_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H22_flowmeter_open_circuit": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H23_flowmeter_drift": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H24_flowmeter_noise": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    },
+    "H25_intermittent_rtd2_stiction": {
+      "passed": false,
+      "execution": {
+        "valid": false
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "exact declared controller ports are required"
+      }
+    }
+  },
+  "reward": 0,
+  "candidate_sha256": "f4b5bbbb681e8cb2c82c250a90c67adc1c14813f6b988a71a0abd7a71db43314",
+  "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+  "profile_version": "procurement-cdu-supply-six-all31-v1",
+  "workers": 4,
+  "case_errors": {
+    "P1_pump_trip_2MW": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "P2_mains_loss_pumpB": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "P3_rtd_drift": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "P4_dp_transmitter_open": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "P5_valve_stiction": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "P6_rack_group_service": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H01_trip_worn_survivor": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H02_worn_pump_sharing": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H03_check_valve_passing": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H04_rtd_stuck_fws_change": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H05_rtd_open_circuit": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H06_dp_drift_then_trip": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H07_dp_noise_training": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H08_flowmeter_stuck_isolation": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H09_valve_seized_release": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H10_mains_loss_half_row": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H11_rtd_noise_then_trip": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H12_two_sags_humid": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H13_rtd2_drift_condensation": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H14_rtd2_open_circuit": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H15_rtd1_stuck": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H16_rtd1_noise": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H17_dp1_stuck": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H18_dp1_positive_drift": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H19_dp2_open_circuit": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H20_dp2_stuck": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H21_dp2_noise": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H22_flowmeter_open_circuit": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H23_flowmeter_drift": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H24_flowmeter_noise": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    },
+    "H25_intermittent_rtd2_stiction": {
+      "type": "ValueError",
+      "message": "exact declared controller ports are required"
+    }
+  },
+  "error": {
+    "type": "CaseExecutionError",
+    "message": "Execution failure in: P1_pump_trip_2MW, P2_mains_loss_pumpB, P3_rtd_drift, P4_dp_transmitter_open, P5_valve_stiction, P6_rack_group_service, H01_trip_worn_survivor, H02_worn_pump_sharing, H03_check_valve_passing, H04_rtd_stuck_fws_change, H05_rtd_open_circuit, H06_dp_drift_then_trip, H07_dp_noise_training, H08_flowmeter_stuck_isolation, H09_valve_seized_release, H10_mains_loss_half_row, H11_rtd_noise_then_trip, H12_two_sags_humid, H13_rtd2_drift_condensation, H14_rtd2_open_circuit, H15_rtd1_stuck, H16_rtd1_noise, H17_dp1_stuck, H18_dp1_positive_drift, H19_dp2_open_circuit, H20_dp2_stuck, H21_dp2_noise, H22_flowmeter_open_circuit, H23_flowmeter_drift, H24_flowmeter_noise, H25_intermittent_rtd2_stiction"
+  },
+  "outcome": "execution_failure",
+  "execution_valid": false,
+  "finished_unix": 1793937799.2116563,
+  "elapsed_s": 4.225181579589844
+}

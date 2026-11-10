@@ -1,0 +1,14 @@
+{
+    "task": {
+        "path": "/opt/sb/codex167-official-campaign-20261106/task"
+    },
+    "trial_name": "task__Svfrwxc",
+    "trials_dir": "/opt/sb/codex167-official-campaign-20261106/e09-quick/exit",
+    "agent": {
+        "name": "cdu_quick_e09:QuickProbe",
+        "kwargs": {
+            "probe": "exit"
+        }
+    },
+    "job_id": "bf66a407-9cff-409e-84f1-a18b7d279c04"
+}

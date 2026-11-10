@@ -1,0 +1,21 @@
+Package: python3-typing-extensions
+Source: python-typing-extensions
+Version: 4.13.2-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 515
+Depends: python3:any
+Section: python
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://typing-extensions.readthedocs.io/en/latest/
+Description: Backported and Experimental Type Hints for Python
+ The "typing_extensions" module serves two related purposes:
+ .
+ 1. Enable use of new type system features on older Python versions.
+ 2. Enable experimentation with new type system PEPs before they are accepted
+    and added to the "typing" module.
+ .
+ "typing_extensions" is treated specially by static type checkers such as mypy
+ and pyright. Objects defined in "typing_extensions" are treated the same
+ way as equivalent forms in "typing".

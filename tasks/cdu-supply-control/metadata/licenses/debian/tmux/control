@@ -1,0 +1,21 @@
+Package: tmux
+Version: 3.5a-3
+Architecture: amd64
+Maintainer: Sebastien Delafond <seb@debian.org>
+Installed-Size: 1209
+Depends: libc6 (>= 2.38), libevent-core-2.1-7t64 (>= 2.1.8-stable), libjemalloc2 (>= 2.1.1), libsystemd0 (>= 221), libtinfo6 (>= 6.5)
+Section: admin
+Priority: optional
+Homepage: https://github.com/tmux/tmux/wiki
+Description: terminal multiplexer
+ tmux enables a number of terminals (or windows) to be accessed and
+ controlled from a single terminal like screen. tmux runs as a
+ server-client system. A server is created automatically when necessary
+ and holds a number of sessions, each of which may have a number of
+ windows linked to it. Any number of clients may connect to a session,
+ or the server may be controlled by issuing commands with tmux.
+ Communication takes place through a socket, by default placed in /tmp.
+ Moreover tmux provides a consistent and well-documented command
+ interface, with the same syntax whether used interactively, as a key
+ binding, or from the shell. It offers a choice of vim or Emacs key
+ layouts.

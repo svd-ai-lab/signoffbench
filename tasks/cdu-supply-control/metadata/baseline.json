@@ -1,0 +1,32 @@
+{
+  "harbor": "0.25.0",
+  "agent": "codex",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "max",
+  "answer_timeout_s": 7200,
+  "verifier_timeout_s": 900,
+  "answer_cpus": 4,
+  "answer_memory_mb": 4096,
+  "verifier_cpus": 4,
+  "verifier_memory_mb": 8192,
+  "network_mode": "no-network",
+  "verifier_environment_mode": "separate",
+  "latest_release_checked": {
+    "tag": "v0.25.0",
+    "published_at": "2026-10-25T20:27:33Z",
+    "source": "https://github.com/harbor-framework/harbor/releases/tag/v0.25.0"
+  },
+  "codex_cli": "0.167.0",
+  "api_endpoint": "https://api.openai.com/v1",
+  "api_route": "official API through US proxy",
+  "evaluation_group": [
+    "normal01",
+    "normal02",
+    "normal03",
+    "normal04",
+    "normal05"
+  ],
+  "evaluation_snapshot": "metadata/frozen-evaluation-snapshot.json",
+  "version_checks": "metadata/task_version_checks.json",
+  "selection": "metadata/run_selection.json"
+}

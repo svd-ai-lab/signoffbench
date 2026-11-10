@@ -1,0 +1,82 @@
+{
+  "policy": {
+    "confirmed_at": "2026-11-06T16:40:50.559735+00:00",
+    "rule": "Select five valid runs with at most two reward=1; prefer the largest feasible number of passes up to two, select ties by run ID ascending. If no compliant five-run subset exists, report that fact without relabeling results.",
+    "source": "explicit user confirmation",
+    "retain_all_seven": true
+  },
+  "selected": [
+    "normal01",
+    "normal02",
+    "normal03",
+    "normal04",
+    "normal05"
+  ],
+  "planned_runs": [
+    "normal01",
+    "normal02",
+    "normal03",
+    "normal04",
+    "normal05",
+    "normal06",
+    "normal07"
+  ],
+  "pending_runs": [
+    "normal06"
+  ],
+  "completed_count": 6,
+  "completed_runs": [
+    {
+      "run": "normal01",
+      "reward": 0.0,
+      "trial": "task__Z5g8eNm",
+      "passed_cases": 30,
+      "cases": 31,
+      "native_report_sha256": "53d5c11e907f451b3b9a3ee356f0b68f825767563fd68ab2187efea6f34b9397"
+    },
+    {
+      "run": "normal02",
+      "reward": 0.0,
+      "trial": "task__hBinc5P",
+      "passed_cases": 26,
+      "cases": 31,
+      "native_report_sha256": "04bcdf539d49e6b0d9af070a9a17771ab1b935e273579b52dfbeadda06ec5c03"
+    },
+    {
+      "run": "normal03",
+      "reward": 1.0,
+      "trial": "task__Dkf2kmM",
+      "passed_cases": 31,
+      "cases": 31,
+      "native_report_sha256": "912bc395483f505cf642c5ec9ab54ca1bf574a4066ae51334d06b2abcb238ea0"
+    },
+    {
+      "run": "normal04",
+      "reward": 0.0,
+      "trial": "task__gp5bXib",
+      "passed_cases": 30,
+      "cases": 31,
+      "native_report_sha256": "3efc14bcde87857c384c3b3c63c83b6c58291ba6f884bc83ac114e0320763220"
+    },
+    {
+      "run": "normal05",
+      "reward": 0.0,
+      "trial": "task__DKvdeP2",
+      "passed_cases": 30,
+      "cases": 31,
+      "native_report_sha256": "cd6920a41794b00c3b816c00fc0cef509536e84f3e4682e2363e8f7efd419f19"
+    },
+    {
+      "run": "normal07",
+      "reward": 0.0,
+      "trial": "task__KudHPcW",
+      "passed_cases": 28,
+      "cases": 31,
+      "native_report_sha256": "6a9fa8187ec65ace07149b2c9e37265648f7b8b4951bad0c190d8a25dcad3981"
+    }
+  ],
+  "completed_passes": 1.0,
+  "selected_passes": 1.0,
+  "raw_archive": "Completed native runs retained by the producer under campaign-20261107; selected native jobs accompany this delivery. Pending runs are excluded from statistics.",
+  "statistics_basis": "Score-selected five from the completed runs at packaging cutoff, not an unselected five-run sample."
+}

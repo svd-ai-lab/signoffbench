@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "platform": "linux/amd64",
+  "files": [
+    {
+      "path": "offline-deps/wheels/lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 5244072,
+      "sha256": "ef9266d2aa545d7374938fb5c484531ef5a2ec7f2d573e62f8ce722c735685fd",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/d0/34/9e591954939276bb679b73773836c6684c22e56d05980e31d52a9a8deb18/lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+        "https://files.pythonhosted.org/packages/d0/34/9e591954939276bb679b73773836c6684c22e56d05980e31d52a9a8deb18/lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/traitlets-5.14.3-py3-none-any.whl",
+      "bytes": 85359,
+      "sha256": "b74e89e397b1ed28cc831db7aea759ba6640cb3de13090ca145426688ff1ac4f",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/jupyter_core-5.9.1-py3-none-any.whl",
+      "bytes": 29032,
+      "sha256": "ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/fmpy-0.3.32-py3-none-any.whl",
+      "bytes": 6357420,
+      "sha256": "b379deb9417b842028003a288d00c1c5f138d1580e1ff12cc6c42a98719cecf0",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/f5/4c/5e085b9b0c823eb298af2e50edf98c8d8d9af3f04edbb8e972a8dabc97fb/fmpy-0.3.32-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/f5/4c/5e085b9b0c823eb298af2e50edf98c8d8d9af3f04edbb8e972a8dabc97fb/fmpy-0.3.32-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/numpy-2.5.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 16708577,
+      "sha256": "a5fa86b80fd24bcd1aff83ad23be44ea323de3f787be8f8b15d4a65621e25321",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/3a/1b/3b16a9bc514a440a7a0883684111dcb1ef1aee960af2ca95da8fc775f124/numpy-2.5.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "https://files.pythonhosted.org/packages/3a/1b/3b16a9bc514a440a7a0883684111dcb1ef1aee960af2ca95da8fc775f124/numpy-2.5.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/attrs-26.1.0-py3-none-any.whl",
+      "bytes": 67548,
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/fastjsonschema-2.21.2-py3-none-any.whl",
+      "bytes": 24024,
+      "sha256": "1c797122d0a86c5cace2e54bf4e819c36223b552017172f32c5c024a6b77e463",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/cb/a8/20d0723294217e47de6d9e2e40fd4a9d2f7c4b6ef974babd482a59743694/fastjsonschema-2.21.2-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/cb/a8/20d0723294217e47de6d9e2e40fd4a9d2f7c4b6ef974babd482a59743694/fastjsonschema-2.21.2-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "bytes": 18437,
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/lark-1.3.1-py3-none-any.whl",
+      "bytes": 113151,
+      "sha256": "c629b661023a014c37da873b4ff58a817398d12635d3bbb2c5a03be7fe5d1e12",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/82/3d/14ce75ef66813643812f3093ab17e46d3a206942ce7376d31ec2d36229e7/lark-1.3.1-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/82/3d/14ce75ef66813643812f3093ab17e46d3a206942ce7376d31ec2d36229e7/lark-1.3.1-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/platformdirs-4.10.0-py3-none-any.whl",
+      "bytes": 22743,
+      "sha256": "fb516cdb12eb0d857d0cd85a7c57cea4d060bee4578d6cf5a14dfdf8cbf8784a",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/81/e6/cd9575ac904136b3cbf7aa7ee819ef86eedb7274e46f230e94ea4342e729/platformdirs-4.10.0-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/81/e6/cd9575ac904136b3cbf7aa7ee819ef86eedb7274e46f230e94ea4342e729/platformdirs-4.10.0-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/cmake-4.4.4-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 30245729,
+      "sha256": "f773a0544c66370408f451acd487c2c643b0dfebb48c5d64f3638bc1bb820238",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/7e/d5/664ea06d01864f25d6067f09fa218404e4d588edd5e495135ac91429fecb/cmake-4.4.4-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "https://files.pythonhosted.org/packages/7e/d5/664ea06d01864f25d6067f09fa218404e4d588edd5e495135ac91429fecb/cmake-4.4.4-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 22980,
+      "sha256": "ccfcd093f13f0f0b7fdd0f198b90053bf7b2f02a3927a30e63f3ccc9df56b676",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/a9/21/9b05698b46f218fc0e118e1f8168395c65c8a2c750ae2bab54fc4bd4e0e8/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "https://files.pythonhosted.org/packages/a9/21/9b05698b46f218fc0e118e1f8168395c65c8a2c750ae2bab54fc4bd4e0e8/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 35697297,
+      "sha256": "7dc1360c06535ea6116a2220f760ae572db9f661aba2d88074fe30ec2aa1ff88",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/21/f6/4bfb5695d8941e5c570a04d9fcd0d36bce7511b7d78e6e75c8f9791f82d0/scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "https://files.pythonhosted.org/packages/21/f6/4bfb5695d8941e5c570a04d9fcd0d36bce7511b7d78e6e75c8f9791f82d0/scipy-1.16.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/nbformat-5.10.4-py3-none-any.whl",
+      "bytes": 78454,
+      "sha256": "3b48d6c8fbca4b299bf3982ea7db1af21580e4fec269ad087b9e81588891200b",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/jsonschema-4.26.0-py3-none-any.whl",
+      "bytes": 90630,
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/rpds_py-2026.6.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 365678,
+      "sha256": "acac386b453c2516111b50985d60ce46e7fadb5ea71ae7b25f4c946935bf27cf",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/57/d7/fe978efc2ae50abe48eb7464668ea99f53c010c60aeebb7b35ad27f23661/rpds_py-2026.6.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "https://files.pythonhosted.org/packages/57/d7/fe978efc2ae50abe48eb7464668ea99f53c010c60aeebb7b35ad27f23661/rpds_py-2026.6.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/msgpack-1.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 416405,
+      "sha256": "787c9bebb5833e8f6fc8abca3c0597683d8d87f56a8842b6b89c75a5f3176e2d",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/79/d3/36a46a8ed992b781acbc05928bd5bee3c810cb0c3563bf81a7b0c04a1a76/msgpack-1.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "https://files.pythonhosted.org/packages/79/d3/36a46a8ed992b781acbc05928bd5bee3c810cb0c3563bf81a7b0c04a1a76/msgpack-1.2.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "offline-deps/wheels/referencing-0.37.0-py3-none-any.whl",
+      "bytes": 26766,
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "urls": [
+        "https://pypi.tuna.tsinghua.edu.cn/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+        "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-typing-extensions_4.13.2-1_all.deb",
+      "bytes": 90500,
+      "sha256": "b67662f211c35c17c74a0725bc7c8ffc3b126c650e2a2525593adee06f2bbf69",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python-typing-extensions/python3-typing-extensions_4.13.2-1_all.deb",
+        "https://deb.debian.org/debian/pool/main/p/python-typing-extensions/python3-typing-extensions_4.13.2-1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python-typing-extensions/python3-typing-extensions_4.13.2-1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-typeguard_4.4.2-1_all.deb",
+      "bytes": 37300,
+      "sha256": "81e512101d7ab94e73646b9a8e4fb9b948836e3172dc5719ad3acbcde65bca01",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python-typeguard/python3-typeguard_4.4.2-1_all.deb",
+        "https://deb.debian.org/debian/pool/main/p/python-typeguard/python3-typeguard_4.4.2-1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python-typeguard/python3-typeguard_4.4.2-1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+      "bytes": 2224552,
+      "sha256": "c1fda9e7b1bf15b2fa75a238d8a8710e142fe14c722fc650c5fc614f078c9073",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3.13/python3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3.13/python3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3.13/python3.13-minimal_3.13.5-2+deb13u5_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/asciinema_2.4.0-1_all.deb",
+      "bytes": 74388,
+      "sha256": "7f069e3dcf93c41c13835aa2423a220688c95a91ac0a972c4335dad3c43afb8e",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/a/asciinema/asciinema_2.4.0-1_all.deb",
+        "https://deb.debian.org/debian/pool/main/a/asciinema/asciinema_2.4.0-1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/a/asciinema/asciinema_2.4.0-1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-inflect_7.3.1-2_all.deb",
+      "bytes": 32396,
+      "sha256": "6c10dca4d4aa0eb0b4e16e8b62b74a073a8d22be8809c3f61c56b06fdd1451f8",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python-inflect/python3-inflect_7.3.1-2_all.deb",
+        "https://deb.debian.org/debian/pool/main/p/python-inflect/python3-inflect_7.3.1-2_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python-inflect/python3-inflect_7.3.1-2_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libevent-core-2.1-7t64_2.1.13-stable-1~deb13u1_amd64.deb",
+      "bytes": 132868,
+      "sha256": "faa7d20cc8fa05ac3b0497065fa60bc920eacd3711ff039649d43a7aa34421ce",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/libe/libevent/libevent-core-2.1-7t64_2.1.13-stable-1~deb13u1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/libe/libevent/libevent-core-2.1-7t64_2.1.13-stable-1~deb13u1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/libe/libevent/libevent-core-2.1-7t64_2.1.13-stable-1~deb13u1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-pkg-resources_78.1.1-0.1_all.deb",
+      "bytes": 224360,
+      "sha256": "cf8749251172abc945216cf878367f614cf91d3d9a1043ba3bacc5a74e8cc1a8",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/s/setuptools/python3-pkg-resources_78.1.1-0.1_all.deb",
+        "https://deb.debian.org/debian/pool/main/s/setuptools/python3-pkg-resources_78.1.1-0.1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/s/setuptools/python3-pkg-resources_78.1.1-0.1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-autocommand_2.2.2-3_all.deb",
+      "bytes": 13608,
+      "sha256": "1e62ac22ff83466228c051c6c2402a40f521646e15b5aa54cf2391206a848bad",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python-autocommand/python3-autocommand_2.2.2-3_all.deb",
+        "https://deb.debian.org/debian/pool/main/p/python-autocommand/python3-autocommand_2.2.2-3_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python-autocommand/python3-autocommand_2.2.2-3_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libpython3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+      "bytes": 863168,
+      "sha256": "a4aa6a9a8c77f87bfe545e1d14ec42c001d189ace90e3aa75deec882b39dee49",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3.13/libpython3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3.13/libpython3.13-minimal_3.13.5-2+deb13u5_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3.13/libpython3.13-minimal_3.13.5-2+deb13u5_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libjemalloc2_5.3.0-3_amd64.deb",
+      "bytes": 274324,
+      "sha256": "e7d64919e620e8ea46960104efe1e9c977d751e5b610a5d89b0b51aeae9530d7",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/j/jemalloc/libjemalloc2_5.3.0-3_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/j/jemalloc/libjemalloc2_5.3.0-3_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/j/jemalloc/libjemalloc2_5.3.0-3_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/unzip_6.0-29+deb13u1_amd64.deb",
+      "bytes": 172916,
+      "sha256": "fc11f8736bdec6fc46a6864f75bce0c8206a790df37dbcab5ddb25b1bf0f58f0",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/u/unzip/unzip_6.0-29+deb13u1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/u/unzip/unzip_6.0-29+deb13u1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/u/unzip/unzip_6.0-29+deb13u1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libexpat1_2.9.0-1~deb13u1_amd64.deb",
+      "bytes": 125744,
+      "sha256": "feff874772cae904ae4d24e917b35664952bec4b4ae9100a4edda5a7fa746832",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/e/expat/libexpat1_2.9.0-1~deb13u1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/e/expat/libexpat1_2.9.0-1~deb13u1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/e/expat/libexpat1_2.9.0-1~deb13u1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3.13_3.13.5-2+deb13u5_amd64.deb",
+      "bytes": 757492,
+      "sha256": "460c1fd72845516ac3ce9d1686916f3ab2e4c86f8a9746e14d26243a47e2b98d",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3.13/python3.13_3.13.5-2+deb13u5_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3.13/python3.13_3.13.5-2+deb13u5_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3.13/python3.13_3.13.5-2+deb13u5_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-jaraco.context_6.0.1-1+deb13u1_all.deb",
+      "bytes": 8492,
+      "sha256": "f909ec7b00dd96a1905322acba7cdd2df09747ceddeef6e426a97b33ab227f80",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/j/jaraco.context/python3-jaraco.context_6.0.1-1+deb13u1_all.deb",
+        "https://deb.debian.org/debian/pool/main/j/jaraco.context/python3-jaraco.context_6.0.1-1+deb13u1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/j/jaraco.context/python3-jaraco.context_6.0.1-1+deb13u1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/media-types_13.0.0_all.deb",
+      "bytes": 29336,
+      "sha256": "0788e4b0b72db1bcf74a19cb24c3511e7770ad0b341f0f30e361701c3072f53e",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/m/media-types/media-types_13.0.0_all.deb",
+        "https://deb.debian.org/debian/pool/main/m/media-types/media-types_13.0.0_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/m/media-types/media-types_13.0.0_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-jaraco.functools_4.1.0-1_all.deb",
+      "bytes": 11984,
+      "sha256": "f5ac3e5f79b6394191d76ea7cde9255d8bae98f639886cb981444128f6545796",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python-jaraco.functools/python3-jaraco.functools_4.1.0-1_all.deb",
+        "https://deb.debian.org/debian/pool/main/p/python-jaraco.functools/python3-jaraco.functools_4.1.0-1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python-jaraco.functools/python3-jaraco.functools_4.1.0-1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libpython3-stdlib_3.13.5-1_amd64.deb",
+      "bytes": 10180,
+      "sha256": "7e142ed64a81ccdd39714f213467bd365736ef341adb2be11be981f638b9175f",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3-defaults/libpython3-stdlib_3.13.5-1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3-defaults/libpython3-stdlib_3.13.5-1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3-defaults/libpython3-stdlib_3.13.5-1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-minimal_3.13.5-1_amd64.deb",
+      "bytes": 27248,
+      "sha256": "a5d2371bebf3689f676e3f3bae800371bcc4392a8a51269e23d528249b399615",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3-defaults/python3-minimal_3.13.5-1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3-defaults/python3-minimal_3.13.5-1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3-defaults/python3-minimal_3.13.5-1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libpython3.13-stdlib_3.13.5-2+deb13u5_amd64.deb",
+      "bytes": 1958624,
+      "sha256": "db161322a3481d2c0c3b9a3b9a03c3ab0e2b1718f54b88755fb4a3f939165b84",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3.13/libpython3.13-stdlib_3.13.5-2+deb13u5_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3.13/libpython3.13-stdlib_3.13.5-2+deb13u5_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3.13/libpython3.13-stdlib_3.13.5-2+deb13u5_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/libproc2-0_2%3a4.0.4-9_amd64.deb",
+      "bytes": 65596,
+      "sha256": "c9d61caab1b2ddfc3f17edb95be31b9809fcb2daf27d853dff615bc4ebd08b4b",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/procps/libproc2-0_4.0.4-9_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/procps/libproc2-0_4.0.4-9_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/procps/libproc2-0_4.0.4-9_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3_3.13.5-1_amd64.deb",
+      "bytes": 28244,
+      "sha256": "c1388174dc7140e6c19a6dd39f8a0dcb38a835cd66c65644e0dded43d5223cb0",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/python3-defaults/python3_3.13.5-1_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/python3-defaults/python3_3.13.5-1_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/python3-defaults/python3_3.13.5-1_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/procps_2%3a4.0.4-9_amd64.deb",
+      "bytes": 882088,
+      "sha256": "4db90bb6776772fc52585d6b1fbfc52ec2a85480e1b4363b743fbb2ffa2a5375",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/p/procps/procps_4.0.4-9_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/p/procps/procps_4.0.4-9_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/p/procps/procps_4.0.4-9_amd64.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/python3-more-itertools_10.7.0-1_all.deb",
+      "bytes": 67416,
+      "sha256": "385d785fa84261838732ec97627b4e95ec7399fc449d8a2aaaef66fb5f961c25",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/m/more-itertools/python3-more-itertools_10.7.0-1_all.deb",
+        "https://deb.debian.org/debian/pool/main/m/more-itertools/python3-more-itertools_10.7.0-1_all.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/m/more-itertools/python3-more-itertools_10.7.0-1_all.deb"
+      ]
+    },
+    {
+      "path": "tasks/cdu-supply-control/environment/build-inputs/debs/tmux_3.5a-3_amd64.deb",
+      "bytes": 490296,
+      "sha256": "e6b6aa51780044e2c4a0e618c33f832b70ec80caa30303e6c254a0c851b5af78",
+      "urls": [
+        "https://mirrors.ivolces.com/debian/pool/main/t/tmux/tmux_3.5a-3_amd64.deb",
+        "https://deb.debian.org/debian/pool/main/t/tmux/tmux_3.5a-3_amd64.deb",
+        "https://security.debian.org/debian-security/pool/updates/main/t/tmux/tmux_3.5a-3_amd64.deb"
+      ]
+    }
+  ]
+}

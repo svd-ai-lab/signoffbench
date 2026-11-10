@@ -1,0 +1,28 @@
+{
+    "task": {
+        "path": "/opt/sb/cdu-campaign-20261107/task"
+    },
+    "trial_name": "task__hBinc5P",
+    "trials_dir": "/opt/sb/cdu-campaign-20261107/jobs/normal02",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6-luna",
+        "base_url": "https://api.openai.com/v1",
+        "model_api_key_name": "OPENAI_API_KEY",
+        "model_api_format": "openai_responses",
+        "extra_allowed_hosts": [
+            "172.31.87.101",
+            "api.openai.com"
+        ],
+        "kwargs": {
+            "version": "0.167.0",
+            "reasoning_effort": "max"
+        },
+        "env": {
+            "HTTPS_PROXY": "http://172.31.87.101:18992",
+            "HTTP_PROXY": "http://172.31.87.101:18992",
+            "NO_PROXY": "localhost,127.0.0.1"
+        }
+    },
+    "job_id": "62da645b-2466-49da-8b6c-e25974723714"
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "cdu-supply-control",
+  "status": "checks_recorded; quality_findings_remain",
+  "current_normal_runs": "6 of seven completed at packaging cutoff; five selected by recorded score rule",
+  "total_steps": "native_present_all_five",
+  "oracle_regression": "current campaign oracle reward=1, nop reward=0",
+  "harbor_check": {
+    "source": "evidence/selfcheck/harbor-check-current/check_report.json",
+    "counts": {
+      "pass": 32,
+      "fail": 1,
+      "not_applicable": 2
+    },
+    "failed": [
+      "task_toml_schema"
+    ],
+    "quality_report_passed": false
+  },
+  "e09": "four deterministic probes reward=0, no Harbor exception; bounded coverage",
+  "image_followup": "Current campaign images rebuilt offline and measured; final task reconstruction checked against the frozen portable snapshot"
+}

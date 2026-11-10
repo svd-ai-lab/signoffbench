@@ -1,0 +1,72 @@
+{
+  "version": "procurement-cdu-supply-six-all31-v1",
+  "metric_semantics": "native_1s_after300_supply_six_v1",
+  "cases": [
+    "P1_pump_trip_2MW",
+    "P2_mains_loss_pumpB",
+    "P3_rtd_drift",
+    "P4_dp_transmitter_open",
+    "P5_valve_stiction",
+    "P6_rack_group_service",
+    "H01_trip_worn_survivor",
+    "H02_worn_pump_sharing",
+    "H03_check_valve_passing",
+    "H04_rtd_stuck_fws_change",
+    "H05_rtd_open_circuit",
+    "H06_dp_drift_then_trip",
+    "H07_dp_noise_training",
+    "H08_flowmeter_stuck_isolation",
+    "H09_valve_seized_release",
+    "H10_mains_loss_half_row",
+    "H11_rtd_noise_then_trip",
+    "H12_two_sags_humid",
+    "H13_rtd2_drift_condensation",
+    "H14_rtd2_open_circuit",
+    "H15_rtd1_stuck",
+    "H16_rtd1_noise",
+    "H17_dp1_stuck",
+    "H18_dp1_positive_drift",
+    "H19_dp2_open_circuit",
+    "H20_dp2_stuck",
+    "H21_dp2_noise",
+    "H22_flowmeter_open_circuit",
+    "H23_flowmeter_drift",
+    "H24_flowmeter_noise",
+    "H25_intermittent_rtd2_stiction"
+  ],
+  "obligations": [
+    {
+      "metric": "rack_flow",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "dew_point",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "hot_supply",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "overpressure",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "dp_surge",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "starve_s",
+      "comparator": "<",
+      "threshold": 30.0
+    }
+  ],
+  "status": "frozen_contract_pending_harbor_validation_not_difficulty_calibrated",
+  "engineering_basis": "Original nine engineering exposure obligations and physical service-loss criterion across the complete original v1-h03-5s 31-case scope. Temperature MAE and occupancy are original optimization objectives and remain diagnostics in this broader fault qualification release.",
+  "difficulty_evidence": "Not calibrated. Prior frozen core5 precision results do not establish full31 success rates."
+}

@@ -1,0 +1,548 @@
+{
+  "scope": "All 31 delivered FMU files, including six shared public FMUs. Identities read from actual ZIP/XML and binaries; no claim that source-model BSD terms replace generated-code or dataset terms.",
+  "artifacts": [
+    {
+      "path": "shared-assets/public-fmus/P1_pump_trip_2MW/plant.fmu",
+      "sha256": "56abbb71bdf6a5edc8366da911e8e8f079b6dd7491400a93fab9831ad19e67c9",
+      "bytes": 2396180,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p1_pump_trip_2mw",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:28:39Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p1_pump_trip_2mw.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "shared-assets/public-fmus/P2_mains_loss_pumpB/plant.fmu",
+      "sha256": "bba7efba8d5ead3111b2d06767635fb9870782ac2567de64b01a63351cbce905",
+      "bytes": 2405874,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p2_mains_loss_pumpb",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:38:04Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p2_mains_loss_pumpb.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "shared-assets/public-fmus/P3_rtd_drift/plant.fmu",
+      "sha256": "b3632e107dc6552bb9b1d8f84f1a95a293762027cb775a65da4dc5a67dd165d1",
+      "bytes": 2396423,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p3_rtd_drift",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:38:43Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p3_rtd_drift.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "shared-assets/public-fmus/P4_dp_transmitter_open/plant.fmu",
+      "sha256": "d7dbf632ee830661ab9cf0b93cd8245736111c0c619f9df98395d0c6f9bb1826",
+      "bytes": 2396128,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p4_dp_transmitter_open",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:50:32Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p4_dp_transmitter_open.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "shared-assets/public-fmus/P5_valve_stiction/plant.fmu",
+      "sha256": "df2656c6b111e260488a66b2d2244c8ae0a5bfb717dc632f3a0735ee80749e8e",
+      "bytes": 2405782,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p5_valve_stiction",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:38:16Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p5_valve_stiction.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "shared-assets/public-fmus/P6_rack_group_service/plant.fmu",
+      "sha256": "62522f63205f7d35aa29f6ac9b58125d6cdaba46db0641b77f6a4fa24e8daa16",
+      "bytes": 2405244,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_p6_rack_group_service",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:38:23Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_p6_rack_group_service.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H01_trip_worn_survivor/plant.fmu",
+      "sha256": "d06ff631da49cd3cd0873b68227b6ed53107855040ed0dc1adc1263912f94e4f",
+      "bytes": 2396808,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h01_trip_worn_survivor",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:51:21Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h01_trip_worn_survivor.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H02_worn_pump_sharing/plant.fmu",
+      "sha256": "0f0d8b8598490cf85c9c81dd7e9e7a3285ba89b448dc4eb80c94b1607c23fdde",
+      "bytes": 2406332,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h02_worn_pump_sharing",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:37:46Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h02_worn_pump_sharing.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H03_check_valve_passing/plant.fmu",
+      "sha256": "d989981c6984a3b59519b915d22784147574c0b90221f99d3452b95b6ae17dd7",
+      "bytes": 2405080,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h03_check_valve_passing",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:39:01Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h03_check_valve_passing.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H04_rtd_stuck_fws_change/plant.fmu",
+      "sha256": "a11e3ac8485ca4da94db4e36676e01e9b3965520c588fcf77e000b8f1c3e7d8d",
+      "bytes": 2398386,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h04_rtd_stuck_fws_change",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:38:39Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h04_rtd_stuck_fws_change.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H05_rtd_open_circuit/plant.fmu",
+      "sha256": "b660e6c335519c3d712871b727dda1e69678a84111e949b48c67ab389720c9e2",
+      "bytes": 2398382,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h05_rtd_open_circuit",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:59Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h05_rtd_open_circuit.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H06_dp_drift_then_trip/plant.fmu",
+      "sha256": "b4060bb0b2a30187c986ac0f5b53f3e70766c30f6df5f94f84a72d22a37bda0f",
+      "bytes": 2398210,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h06_dp_drift_then_trip",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:50:30Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h06_dp_drift_then_trip.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H07_dp_noise_training/plant.fmu",
+      "sha256": "d0c81698ddebb6568386f919a5dc0973214c490e69f7766161c4c25a0a845c58",
+      "bytes": 2407511,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h07_dp_noise_training",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:46:16Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h07_dp_noise_training.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H08_flowmeter_stuck_isolation/plant.fmu",
+      "sha256": "05624bcb8b85340fdb5766d47867ab1ac1522ec5cc3688bee7cfe2ae037534b5",
+      "bytes": 2398419,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h08_flowmeter_stuck_isolation",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:47:12Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h08_flowmeter_stuck_isolation.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H09_valve_seized_release/plant.fmu",
+      "sha256": "66da263ce8653efcd756cd91220fc21aaddd0860ac5a119111be3ac72c4103c6",
+      "bytes": 2398452,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h09_valve_seized_release",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:46:22Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h09_valve_seized_release.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H10_mains_loss_half_row/plant.fmu",
+      "sha256": "24f64fcb086de65328e1ed17a8f03b434ebe028289c664f301af16ee6a879fa6",
+      "bytes": 2398273,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h10_mains_loss_half_row",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:46:53Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h10_mains_loss_half_row.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H11_rtd_noise_then_trip/plant.fmu",
+      "sha256": "0bb5a24ca0c92dd40cd0d2510301cfec771f5899e20671931ded1b0ea66a1639",
+      "bytes": 2398207,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h11_rtd_noise_then_trip",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:45:45Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h11_rtd_noise_then_trip.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H12_two_sags_humid/plant.fmu",
+      "sha256": "cc73152133d2a384d3f034c311d7d712dd7ab2d6bc246b7b35b3d554047b5e78",
+      "bytes": 2398442,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h12_two_sags_humid",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:49:49Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h12_two_sags_humid.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H13_rtd2_drift_condensation/plant.fmu",
+      "sha256": "f1a54e815b281d79b4e1714b67255df8c69d4121c5251a1ba1a45645e12ad729",
+      "bytes": 2398326,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h13_rtd2_drift_condensation",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:39:05Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h13_rtd2_drift_condensation.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H14_rtd2_open_circuit/plant.fmu",
+      "sha256": "65c89208bd8b2bc84fa0bc4dfd47db9a1f8ded73ce13c6435232bdf58ac95736",
+      "bytes": 2406209,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h14_rtd2_open_circuit",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:16Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h14_rtd2_open_circuit.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H15_rtd1_stuck/plant.fmu",
+      "sha256": "a1948515b8e9964dff1575719008b3307daedc957ecb121a1386cdb493d8af3e",
+      "bytes": 2398188,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h15_rtd1_stuck",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:15Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h15_rtd1_stuck.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H16_rtd1_noise/plant.fmu",
+      "sha256": "c0afab58ab984e5f7715f2d03c404e48ce4706ebea28364d102b3cf56a47d900",
+      "bytes": 2404682,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h16_rtd1_noise",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:39Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h16_rtd1_noise.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H17_dp1_stuck/plant.fmu",
+      "sha256": "b88c14ce8a74bc42927b66a32fd2041b1099b351658d937de41d589bf4bf34e4",
+      "bytes": 2398279,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h17_dp1_stuck",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:43:18Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h17_dp1_stuck.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H18_dp1_positive_drift/plant.fmu",
+      "sha256": "a5f957cd70e3c1dccc153f59f59bdc3497d29496e03da9340211a4aacd54d2ad",
+      "bytes": 2406693,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h18_dp1_positive_drift",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:41:44Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h18_dp1_positive_drift.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H19_dp2_open_circuit/plant.fmu",
+      "sha256": "2db1073975b5d564130bb4e4c349e09e0637eab1691cb262a79e2e05c2fba007",
+      "bytes": 2405254,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h19_dp2_open_circuit",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:43Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h19_dp2_open_circuit.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H20_dp2_stuck/plant.fmu",
+      "sha256": "df785ff9c1de8e341ec50b95e7339ee545773c0c53766d489078bddae5d897d2",
+      "bytes": 2398274,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h20_dp2_stuck",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:46:41Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h20_dp2_stuck.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H21_dp2_noise/plant.fmu",
+      "sha256": "6fed71b0e3e233d13d0506f367ad625c84ae566a8e4a47ea915d5566d922991b",
+      "bytes": 2407020,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h21_dp2_noise",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:42:58Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h21_dp2_noise.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H22_flowmeter_open_circuit/plant.fmu",
+      "sha256": "7f67df6479008d6c638c8faa574ae07084d870dbd17705b14666f512107559ae",
+      "bytes": 2407209,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h22_flowmeter_open_circuit",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:50:15Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h22_flowmeter_open_circuit.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H23_flowmeter_drift/plant.fmu",
+      "sha256": "9a957af4790a26e7ba4d50053f88ba8798b8935034698a21416688ca75ef13d9",
+      "bytes": 2405167,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h23_flowmeter_drift",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:47:03Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h23_flowmeter_drift.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H24_flowmeter_noise/plant.fmu",
+      "sha256": "78dfe6356510599aa03a78dd1669dbcce825967ef8a902505073717d07e53720",
+      "bytes": 2405051,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h24_flowmeter_noise",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:51:02Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h24_flowmeter_noise.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    },
+    {
+      "path": "tasks/cdu-supply-control/tests/assets/H25_intermittent_rtd2_stiction/plant.fmu",
+      "sha256": "5d3311d1d6653a92137b97f2b1d062e5ed9ac57eb5ccd5fe3dcafa4dda589238",
+      "bytes": 2406376,
+      "fmi_version": "3.0",
+      "generation_tool": "Simulink (R2025b)",
+      "model_name": "dc05_full_h25_intermittent_rtd2_stiction",
+      "model_version": "1.1",
+      "generation_date": "2026-11-05T06:47:33Z",
+      "binary_members": [
+        "binaries/x86_64-linux/dc05_full_h25_intermittent_rtd2_stiction.so"
+      ],
+      "license_members": [],
+      "source_mapping": "metadata/third_party_sources.json",
+      "license": "Generated Simulink R2025b binary: applicable MathWorks Software License Agreement and Program Offering Guide; upstream model BSD-3-Clause is mapped separately.",
+      "license_notice": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt"
+    }
+  ],
+  "license_evidence": {
+    "path": "metadata/licenses/fmu-runtime/mathworks-r2025b-license_agreement.txt",
+    "sha256": "9fc12913847e9e143145574ecc728c7c2ad26fdfc76a0d4d13478490273a74c6",
+    "origin_image_id": "sha256:c3215688cfc66c3c29b96bf834edea2a4206246b4dec7b044686e553e9974614",
+    "origin_path": "/usr/local/MATLAB/R2025b/license_agreement.txt",
+    "collection": "Read-only no-network container; no MATLAB invocation or license checkout.",
+    "relevant_sections": [
+      "Program Offering Guide Part Two, section 3.1 Compiler Programs",
+      "Program Offering Guide Part Two, section 4 Application License",
+      "Glossary: Application License; Compiler Programs"
+    ],
+    "official_reference": "https://www.mathworks.com/help/pdf_doc/offering/offering.pdf"
+  },
+  "delivery_review_status": "Generated binary terms recorded. Compiler deployment is conditional on the applicable license offering and written Application License requirements. This inventory is not an independent grant of distribution rights; final delivery terms must address those requirements.",
+  "archive_notice_observation": "The 31 inspected FMU archives contain modelDescription.xml and a shared binary, with no separately named license/copyright member. Original toolchain agreement is retained here.",
+  "usage_rights_clearance": "Cleared by explicit user confirmation on 2026-11-08 (Asia/Shanghai); see metadata/third_party_sources.json usage_rights_clearance. Original runtime terms and artifact identities remain unchanged."
+}

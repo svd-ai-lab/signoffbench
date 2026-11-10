@@ -1,0 +1,141 @@
+{
+    "id": "b49a8854-b7ac-4389-8b09-6c4b28de1859",
+    "task_name": "task",
+    "trial_name": "task__Z5g8eNm",
+    "trial_uri": "file:///opt/sb/cdu-campaign-20261107/jobs/normal01/task__Z5g8eNm",
+    "task_id": {
+        "path": "/opt/sb/cdu-campaign-20261107/task"
+    },
+    "source": null,
+    "task_checksum": "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408",
+    "config": {
+        "task": {
+            "path": "/opt/sb/cdu-campaign-20261107/task",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "task__Z5g8eNm",
+        "trials_dir": "/opt/sb/cdu-campaign-20261107/jobs/normal01",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "codex",
+            "import_path": null,
+            "model_name": "openai/gpt-6-luna",
+            "base_url": "https://api.openai.com/v1",
+            "model_api_key_name": "OPENAI_API_KEY",
+            "model_api_format": "openai_responses",
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [
+                "172.31.87.101",
+                "api.openai.com"
+            ],
+            "kwargs": {
+                "version": "0.167.0",
+                "reasoning_effort": "max"
+            },
+            "env": {
+                "HTTPS_PROXY": "http://172.31.87.101:18992",
+                "HTTP_PROXY": "http://172.31.87.101:18992",
+                "NO_PROXY": "localhost,127.0.0.1"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "46ea009a-b56f-49a7-921a-6500de028c91",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "codex",
+        "version": "0.167.0",
+        "model_info": {
+            "name": "gpt-6-luna",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 5184187,
+        "n_cache_tokens": 5031265,
+        "n_output_tokens": 88735,
+        "cost_usd": null,
+        "model_usage": {
+            "openai/gpt-6-luna": {
+                "n_input_tokens": 5184187,
+                "n_cache_tokens": 5031265,
+                "n_output_tokens": 88735,
+                "cost_usd": null
+            }
+        },
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-11-06T16:40:50.606753Z",
+    "finished_at": "2026-11-06T17:10:31.199793Z",
+    "environment_setup": {
+        "started_at": "2026-11-06T16:40:51.741311Z",
+        "finished_at": "2026-11-06T16:40:55.628605Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-06T16:40:55.628658Z",
+        "finished_at": "2026-11-06T16:40:55.832011Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-06T16:40:55.832316Z",
+        "finished_at": "2026-11-06T17:08:06.038835Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-06T17:08:18.076352Z",
+        "finished_at": "2026-11-06T17:10:31.199778Z"
+    },
+    "step_results": null
+}

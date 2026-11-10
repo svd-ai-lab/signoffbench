@@ -1,0 +1,211 @@
+{
+  "results": {
+    "tool": {
+      "name": "native-fmu"
+    },
+    "summary": {
+      "passed": 0,
+      "failed": 32,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "tests": 32,
+      "start": 1793937849110,
+      "stop": 1793937853878
+    },
+    "tests": [
+      {
+        "name": "P1_pump_trip_2MW:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "P2_mains_loss_pumpB:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "P3_rtd_drift:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "P4_dp_transmitter_open:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "P5_valve_stiction:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "P6_rack_group_service:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H01_trip_worn_survivor:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H02_worn_pump_sharing:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H03_check_valve_passing:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H04_rtd_stuck_fws_change:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H05_rtd_open_circuit:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H06_dp_drift_then_trip:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H07_dp_noise_training:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H08_flowmeter_stuck_isolation:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H09_valve_seized_release:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H10_mains_loss_half_row:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H11_rtd_noise_then_trip:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H12_two_sags_humid:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H13_rtd2_drift_condensation:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H14_rtd2_open_circuit:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H15_rtd1_stuck:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H16_rtd1_noise:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H17_dp1_stuck:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H18_dp1_positive_drift:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H19_dp2_open_circuit:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H20_dp2_stuck:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H21_dp2_noise:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H22_flowmeter_open_circuit:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H23_flowmeter_drift:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H24_flowmeter_noise:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "H25_intermittent_rtd2_stiction:execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "controller process exited: Traceback (most recent call last):\n  File \"/public/controller_process.py\", line 37, in <module>\n    print(json.dumps(response, allow_nan=False), flush=True)\n          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/json/__init__.py\", line 242, in dumps\n    **kw).encode(obj)\n          ~~~~~~^^^^^\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 202, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/usr/local/lib/python3.13/json/encoder.py\", line 263, in iterencode\n    return _iterencode(o, 0)\nValueError: Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "name": "controller_execution",
+        "status": "failed",
+        "duration": 0,
+        "message": "Execution failure in: P1_pump_trip_2MW, P2_mains_loss_pumpB, P3_rtd_drift, P4_dp_transmitter_open, P5_valve_stiction, P6_rack_group_service, H01_trip_worn_survivor, H02_worn_pump_sharing, H03_check_valve_passing, H04_rtd_stuck_fws_change, H05_rtd_open_circuit, H06_dp_drift_then_trip, H07_dp_noise_training, H08_flowmeter_stuck_isolation, H09_valve_seized_release, H10_mains_loss_half_row, H11_rtd_noise_then_trip, H12_two_sags_humid, H13_rtd2_drift_condensation, H14_rtd2_open_circuit, H15_rtd1_stuck, H16_rtd1_noise, H17_dp1_stuck, H18_dp1_positive_drift, H19_dp2_open_circuit, H20_dp2_stuck, H21_dp2_noise, H22_flowmeter_open_circuit, H23_flowmeter_drift, H24_flowmeter_noise, H25_intermittent_rtd2_stiction"
+      }
+    ]
+  }
+}

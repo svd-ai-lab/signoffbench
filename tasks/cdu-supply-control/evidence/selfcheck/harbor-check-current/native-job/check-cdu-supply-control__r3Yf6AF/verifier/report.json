@@ -1,0 +1,3581 @@
+{
+  "schema_version": 1,
+  "scope": "supply-six-all31",
+  "started_unix": 1793981071.6433797,
+  "cases": {
+    "P1_pump_trip_2MW": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.409709453582764
+      }
+    },
+    "P2_mains_loss_pumpB": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.562560796737671
+      }
+    },
+    "P3_rtd_drift": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.70060133934021
+      }
+    },
+    "P4_dp_transmitter_open": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.02483081817627
+      }
+    },
+    "P5_valve_stiction": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.46760606765747
+      }
+    },
+    "P6_rack_group_service": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.627552270889282
+      }
+    },
+    "H01_trip_worn_survivor": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.484150648117065
+      }
+    },
+    "H02_worn_pump_sharing": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 20.332119941711426
+      }
+    },
+    "H03_check_valve_passing": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.403919696807861
+      }
+    },
+    "H04_rtd_stuck_fws_change": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 12.951651811599731
+      }
+    },
+    "H05_rtd_open_circuit": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.513187408447266
+      }
+    },
+    "H06_dp_drift_then_trip": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.612294673919678
+      }
+    },
+    "H07_dp_noise_training": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.513534784317017
+      }
+    },
+    "H08_flowmeter_stuck_isolation": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.749904155731201
+      }
+    },
+    "H09_valve_seized_release": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.602901935577393
+      }
+    },
+    "H10_mains_loss_half_row": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.222129821777344
+      }
+    },
+    "H11_rtd_noise_then_trip": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.443484544754028
+      }
+    },
+    "H12_two_sags_humid": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.047420263290405
+      }
+    },
+    "H13_rtd2_drift_condensation": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.2575204372406
+      }
+    },
+    "H14_rtd2_open_circuit": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 15.248792171478271
+      }
+    },
+    "H15_rtd1_stuck": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 12.992088079452515
+      }
+    },
+    "H16_rtd1_noise": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.325694799423218
+      }
+    },
+    "H17_dp1_stuck": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.395129919052124
+      }
+    },
+    "H18_dp1_positive_drift": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.602094411849976
+      }
+    },
+    "H19_dp2_open_circuit": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.46078085899353
+      }
+    },
+    "H20_dp2_stuck": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.749783754348755
+      }
+    },
+    "H21_dp2_noise": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.408298015594482
+      }
+    },
+    "H22_flowmeter_open_circuit": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 14.238549947738647
+      }
+    },
+    "H23_flowmeter_drift": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.044800758361816
+      }
+    },
+    "H24_flowmeter_noise": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 12.87332797050476
+      }
+    },
+    "H25_intermittent_rtd2_stiction": {
+      "metrics": {
+        "rack_flow": 0.0,
+        "dew_point": 0.0,
+        "hot_supply": 0.0,
+        "overpressure": 0.0,
+        "dp_surge": 0.0,
+        "starve_s": 0.0
+      },
+      "obligations": {
+        "rack_flow": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "largest violating sample count among in-service groups"
+        },
+        "dew_point": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "hot_supply": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "overpressure": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "dp_surge": {
+          "value": 0.0,
+          "threshold": 0.0,
+          "comparator": "<=",
+          "passed": true,
+          "violation_duration_s": 0.0
+        },
+        "starve_s": {
+          "value": 0.0,
+          "threshold": 30.0,
+          "comparator": "<",
+          "passed": true,
+          "violation_duration_s": 0.0,
+          "duration_basis": "longest consecutive low-flow run among in-service groups"
+        }
+      },
+      "passed": true,
+      "selected_acceptance": {
+        "passed": true,
+        "obligations": {
+          "rack_flow": {
+            "metric": "rack_flow",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "rack_flow",
+            "value": 0.0,
+            "passed": true
+          },
+          "dew_point": {
+            "metric": "dew_point",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dew_point",
+            "value": 0.0,
+            "passed": true
+          },
+          "hot_supply": {
+            "metric": "hot_supply",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "hot_supply",
+            "value": 0.0,
+            "passed": true
+          },
+          "overpressure": {
+            "metric": "overpressure",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "overpressure",
+            "value": 0.0,
+            "passed": true
+          },
+          "dp_surge": {
+            "metric": "dp_surge",
+            "comparator": "<=",
+            "threshold": 0.0,
+            "id": "dp_surge",
+            "value": 0.0,
+            "passed": true
+          },
+          "starve_s": {
+            "metric": "starve_s",
+            "comparator": "<",
+            "threshold": 30.0,
+            "id": "starve_s",
+            "value": 0.0,
+            "passed": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "native_fmu": true,
+        "elapsed_s": 13.407416582107544
+      }
+    }
+  },
+  "reward": 1,
+  "candidate_sha256": "7f675a5baccdd4a2d59f3f5c3ef51a3ebcf0dfde85c3b6efb94dfe46c01ac94b",
+  "profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa",
+  "profile_version": "procurement-cdu-supply-six-all31-v1",
+  "workers": 4,
+  "outcome": "accepted",
+  "execution_valid": true,
+  "finished_unix": 1793981185.210271,
+  "elapsed_s": 113.56689143180847
+}

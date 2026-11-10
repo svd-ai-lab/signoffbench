@@ -1,0 +1,43 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            BuildKit is currently disabled; enable it by removing the DOCKER_BUILDKIT=0
+            environment-variable.
+
+Sending build context to Docker daemon  171.9MB
+Step 1/12 : FROM --platform=linux/amd64 python@sha256:aaf08c5490d52cd92bc27142a5215b1e47355a5eaf9adfad2a0fbc022d0b5490
+ ---> aaf08c5490d5
+Step 2/12 : ENV PYTHONPATH=/opt/python PATH=/opt/python/bin:$PATH PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+ ---> Using cache
+ ---> 841644c50d61
+Step 3/12 : COPY build-inputs/wheels /tmp/wheels
+ ---> Using cache
+ ---> 8d88d45b72c3
+Step 4/12 : COPY build-inputs/requirements.lock /tmp/requirements.lock
+ ---> Using cache
+ ---> 2b45ef06acfc
+Step 5/12 : RUN python -m pip install --no-index --no-deps --require-hashes --find-links=/tmp/wheels --target=/opt/python -r /tmp/requirements.lock && rm -rf /tmp/wheels /tmp/requirements.lock && echo /opt/python > /usr/local/lib/python3.13/site-packages/supplied-runtime.pth && python -m pip check
+ ---> Using cache
+ ---> 827f9b570d42
+Step 6/12 : USER root
+ ---> Running in fb3242ed5193
+ ---> Removed intermediate container fb3242ed5193
+ ---> 2bfae0703e17
+Step 7/12 : COPY work /tests/work
+ ---> ca8465da69da
+Step 8/12 : COPY assets /tests/assets
+ ---> 003f8f7667e3
+Step 9/12 : COPY grade.py test.sh *.json /tests/
+ ---> e896605fd453
+Step 10/12 : RUN mkdir -p /public /app/submission && cp /tests/work/runtime/controller_process.py /tests/work/runtime/controller_interface.py /public/ && chmod 755 /public && chmod 444 /public/*.py && chmod -R go-rwx /tests && chmod 755 /tests/test.sh
+ ---> Running in e92567a576a0
+ ---> Removed intermediate container e92567a576a0
+ ---> c81df6f7577a
+Step 11/12 : WORKDIR /tests
+ ---> Running in d4ba433d52ae
+ ---> Removed intermediate container d4ba433d52ae
+ ---> 643f2f29f2b6
+Step 12/12 : ENTRYPOINT []
+ ---> Running in fe950a189650
+ ---> Removed intermediate container fe950a189650
+ ---> b4b93ffaafb8
+Successfully built b4b93ffaafb8
+Successfully tagged cdu-campaign-20261107:tests

@@ -1,0 +1,37 @@
+{
+  "version": "procurement-cdu-supply-six-all31-v1",
+  "metric_semantics": "native_1s_after300_supply_six_v1",
+  "obligations": [
+    {
+      "metric": "rack_flow",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "dew_point",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "hot_supply",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "overpressure",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "dp_surge",
+      "comparator": "<=",
+      "threshold": 0.0
+    },
+    {
+      "metric": "starve_s",
+      "comparator": "<",
+      "threshold": 30.0
+    }
+  ],
+  "trusted_profile_sha256": "348277d756bb4f43c0142895f23a38a155423c46b02f69fb29d60b92ac3aa7fa"
+}

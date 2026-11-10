@@ -1,0 +1,14 @@
+Package: python3-jaraco.functools
+Source: python-jaraco.functools
+Version: 4.1.0-1
+Architecture: all
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 48
+Depends: python3-more-itertools, python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/jaraco/jaraco.functools
+Description: additional functools in the spirit of stdlib's functools
+ Jaraco.functools provides additional functools in the spirit of stdlib's
+ functools, mostly needed as a dependency of other projects by the same
+ upstream developer such as the 'tempora' module.

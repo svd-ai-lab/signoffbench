@@ -1,0 +1,151 @@
+{
+  "results": [
+    {
+      "checks": {
+        "verifiable": {
+          "explanation": "The programmatic verifier runs 31 fixed FMU cases and checks six explicit physical metrics. The reference passed all 186 checks in about 114 seconds; verifier dependencies are installed offline at image build time.",
+          "outcome": "pass"
+        },
+        "solvable": {
+          "explanation": "The supplied executable reference passed the complete verifier with reward 1 and zero physical violations. Its controller implementation and validation are plausibly achievable by an expert in four focused hours.",
+          "outcome": "pass"
+        },
+        "difficult": {
+          "explanation": "Coordinating coupled hydraulic and thermal constraints through sensor faults, pump degradation, delayed actuation and valve stiction requires substantial controls and commissioning expertise.",
+          "outcome": "pass"
+        },
+        "interesting": {
+          "explanation": "Fault-tolerant liquid-cooling control for server racks is a realistic commissioning problem with direct professional utility.",
+          "outcome": "pass"
+        },
+        "outcome_verified": {
+          "explanation": "Acceptance depends on controller execution and physical service limits, without requiring a particular control algorithm, editor, tool or implementation procedure.",
+          "outcome": "pass"
+        },
+        "anti_cheat_robustness": {
+          "explanation": "Only the controller file transfers to the separate verifier. Hidden plants and grading code remain root-protected, commands cross a validated subprocess boundary, and no reference controller is exposed in the agent assets.",
+          "outcome": "pass"
+        },
+        "task_security": {
+          "explanation": "Scripts, configuration, package contents and FMU interfaces support legitimate simulation and grading. Inspection found no credential collection, unauthorized network activity, destructive payloads or prompt injection.",
+          "outcome": "pass"
+        },
+        "functional_verification": {
+          "explanation": "Tests execute the submitted controller against native dynamic plants and compute acceptance from resulting physical truth, rather than scanning source code for implementation patterns.",
+          "outcome": "pass"
+        },
+        "deterministic_reproducible": {
+          "explanation": "The base image is digest-pinned, offline dependencies are version- and hash-pinned, and each scenario fixes its noise seed and simulation timing. Random isolation UIDs do not affect physical scoring; recorded replay metrics and the reproduced reference result agree.",
+          "outcome": "pass"
+        },
+        "essential_difficulty": {
+          "explanation": "The challenge is robust feedback design, fault discrimination and transient management. The output contract is a small four-command interface with no arbitrary formatting or precision burden.",
+          "outcome": "pass"
+        },
+        "test_instruction_alignment": {
+          "explanation": "All six acceptance checks, the assessment window, rack-service definition, repeated pre-step reset and controller protocol requirements trace to the instruction. The 31 cases exercise the stated fault and operating envelope.",
+          "outcome": "pass"
+        },
+        "novel": {
+          "explanation": "The custom thermal-fluid FMUs, replacement-equipment envelopes and combined instrument and actuator faults require reasoning about this particular environment rather than recalling a standard exercise.",
+          "outcome": "pass"
+        },
+        "agentic": {
+          "explanation": "A successful release requires exploring equipment specifications and runtime semantics, running commissioning simulations, diagnosing failures and iterating on controller state and tuning.",
+          "outcome": "pass"
+        },
+        "reviewable": {
+          "explanation": "The README, equipment specifications and acceptance-basis document explain the physical requirements and control strategy. Readable metric computations, boundary evidence and alternative-controller results make the acceptance process auditable.",
+          "outcome": "pass"
+        },
+        "instruction_concision": {
+          "explanation": "The instruction states the deliverable upfront, uses absolute paths and specifies necessary interface, timing and acceptance semantics. It gives no control-design recipe or unnecessary tooling inventory.",
+          "outcome": "pass"
+        },
+        "solution_quality": {
+          "explanation": "The reference keeps its substantial controller in a separate source file. The generator materializes executable code, and the controller computes stateful feedback commands from live observations; solve.sh also runs a public simulation.",
+          "outcome": "pass"
+        },
+        "separate_verifier_configured": {
+          "explanation": "The only agent input is the declared controller artifact; all other verifier inputs and tooling are baked into its image. Shared runtimes, dependencies and FMUs byte-match, and the sole interface-metadata divergence is explicitly documented.",
+          "outcome": "pass"
+        },
+        "environment_hygiene": {
+          "explanation": "The agent image contains public simulation inputs and runtime dependencies, without tests or solution code. The verifier owns hidden assets and grading tools; neither test.sh nor either Dockerfile performs network-dependent runtime or apt installs.",
+          "outcome": "pass"
+        },
+        "structured_data_schema": {
+          "explanation": "The instruction normatively defines the Controller methods, all observation keys and units, and the exact four output keys with finite numeric values. These requirements are enforced at the protocol boundary.",
+          "outcome": "pass"
+        },
+        "typos": {
+          "explanation": "No critical filename, path, command or variable-name typos were found. Runtime references resolve, and the supplied reference completed every case.",
+          "outcome": "pass"
+        },
+        "difficulty_explanation_quality": {
+          "explanation": "The difficulty section concretely explains coupled constraints, ambiguous sensors and changing equipment response. It identifies the commissioning-engineer role and describes the author-created simulations and measured-workload origins and limitations.",
+          "outcome": "pass"
+        },
+        "solution_explanation_quality": {
+          "explanation": "The explanation identifies redundant-sensor validation, pump staging and sharing, pressure override and dew-aware valve control, and explains their purpose. These mechanisms match the supplied controller source.",
+          "outcome": "pass"
+        },
+        "verification_explanation_quality": {
+          "explanation": "The README explains execution isolation, sampling, six metrics, all-case binary acceptance and reporting. The linked acceptance basis distinguishes engineering limits from numerical tolerances and supplies alternative-controller and boundary validation; all 13 boundary probes reproduced.",
+          "outcome": "pass"
+        },
+        "category_and_tags": {
+          "explanation": "Science / Physics fits the thermal-fluid dynamical-system and feedback-control work. The dynamical-systems, feedback-control, thermal-fluid and fault-tolerance tags are specific and relevant.",
+          "outcome": "pass"
+        },
+        "task_name": {
+          "explanation": "The documented source identifier cdu-supply-control is descriptive lowercase kebab-case with three words. README explicitly explains that /app/task is the reviewer staging directory.",
+          "outcome": "pass"
+        },
+        "resource_configuration": {
+          "explanation": "The two-hour agent budget suits iterative control design, while the 900-second verifier budget comfortably covers the approximately 114-second reference run. Four CPUs support four native workers, and memory and storage allocations are reasonable for the packaged simulations.",
+          "outcome": "pass"
+        },
+        "task_readme": {
+          "explanation": "README includes all four required sections, useful provenance and licensing context, model limitations, acceptance rationale and links to supporting validation evidence.",
+          "outcome": "pass"
+        },
+        "expert_time_estimate": {
+          "explanation": "The nonzero four-hour estimate is plausible for an experienced controls engineer implementing a known design and validating it against supplied FMUs, and is explicitly scoped in the README.",
+          "outcome": "pass"
+        },
+        "task_toml_schema": {
+          "explanation": "The [metadata] section includes difficulty = \"Level 3\", which is outside the benchmark's explicitly allowed metadata fields. The README procurement explanation does not create an exception to this schema criterion.",
+          "outcome": "fail"
+        },
+        "no_extraneous_files": {
+          "explanation": "The files comprise build inputs, public and private simulation assets, runtime and grading code, reference implementation, required scaffold and README-linked review evidence. No scratch files, backups or unrelated assets were found.",
+          "outcome": "pass"
+        },
+        "artifact_efficiency": {
+          "explanation": "The sole transferred artifact is the small agent-authored controller.py deliverable; no fixed plant data, dependency tree or large source checkout is transferred.",
+          "outcome": "not_applicable"
+        },
+        "verifier_execution_isolation": {
+          "explanation": "Agent code runs in subprocesses under unique unprivileged UIDs with cleared groups and no_new_privs. Root seals tests and reward directories before execution, captures output in temporary files, kills process groups and UID descendants, and computes the reward itself.",
+          "outcome": "pass"
+        },
+        "ctrf_reporting": {
+          "explanation": "The verifier writes /logs/verifier/ctrf.json with a named result for each case and acceptance item, plus execution failures. The reproduced successful run reported 186 individual passing checks.",
+          "outcome": "pass"
+        },
+        "do_not_modify_enforced": {
+          "explanation": "The instruction contains no do-not-modify or preserve constraint protecting a concrete artifact.",
+          "outcome": "not_applicable"
+        },
+        "binary_reward": {
+          "explanation": "The normal worker initializes reward to 0 and assigns int(all cases pass); supervisor error paths write 0. Every reachable legitimate reward write is exactly 0 or 1.",
+          "outcome": "pass"
+        }
+      },
+      "cost_usd": null,
+      "task_name": "cdu-supply-control",
+      "error": null
+    }
+  ]
+}

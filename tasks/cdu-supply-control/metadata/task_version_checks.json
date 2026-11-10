@@ -1,0 +1,27 @@
+{
+  "task_id": "cdu-supply-control",
+  "submission": "single-task-delivery",
+  "evaluation_group": [
+    "normal01",
+    "normal02",
+    "normal03",
+    "normal04",
+    "normal05"
+  ],
+  "native_rewards_preserved": true,
+  "task_checksums": [
+    "a47890104776690286de1d971378a2e6a195d2bff0470b035cf039eb48942408"
+  ],
+  "runtime_overlay": "Only task.toml image pins differ from the portable task. Agent image adds pinned Codex 0.167.0 binaries to the identical task environment.",
+  "current_delivery_differs_from_original_model_run_source": true,
+  "current_prompt_requires_new_model_runs": false,
+  "quality_check_status": "completed: 33 pass / 0 fail / 2 not_applicable",
+  "quality_check_receipt": "evidence/selfcheck/harbor-check-20261108/receipt.json",
+  "quality_check_task_files_match_current_delivery": true,
+  "selected_group_passes": 1,
+  "selected_group_trials": 5,
+  "selection": "metadata/run_selection.json",
+  "quality_check_source_commit": "3dee034a8cdfdfba3b48c3a331fc940fea049bd1",
+  "quality_check_identity_scope": "Receipt task_files matches metadata/offline-build-layout.json task_files. Build dependencies are fetched by pinned preparation, not bundled in the current FMU-only package.",
+  "post_model_run_changes": "PR #41 changed task metadata and README; PR #45 changed dependency packaging. Frozen model runs retain their own task checksum and native outcomes; no new model run is claimed."
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "delivery_path": "evidence/model-runs/normal01/task__Z5g8eNm/agent/trajectory.json",
+    "sha256": "132d1b113d16f53fb832aa5254bf495a1a129cd299e1bcf25079890627bc04bf"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/report.json",
+    "sha256": "53d5c11e907f451b3b9a3ee356f0b68f825767563fd68ab2187efea6f34b9397"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/ctrf.json",
+    "sha256": "d8767587af68fdafedbe4dd98dd4cfdd9819331f29e0baa935663fac84047899"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal01/task__Z5g8eNm/verifier/reward.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal01/task__Z5g8eNm/artifacts/app/submission/controller.py",
+    "sha256": "dd0c8ebac31216b9979b0601a6c38d3936e05d3216949a3f36275b90bb36c5c2"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal02/task__hBinc5P/agent/trajectory.json",
+    "sha256": "2eb6864a6b470c833daf0c3a26f42c51765b7af0e20ddeae43daf5e566a8670e"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal02/task__hBinc5P/verifier/report.json",
+    "sha256": "04bcdf539d49e6b0d9af070a9a17771ab1b935e273579b52dfbeadda06ec5c03"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal02/task__hBinc5P/verifier/ctrf.json",
+    "sha256": "2753935aa46abb79ec37ef5f69b50ee3c65cb30edf960066a33619a030dea03d"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal02/task__hBinc5P/verifier/reward.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal02/task__hBinc5P/artifacts/app/submission/controller.py",
+    "sha256": "76b1916fde295c872a4eba6adecd4548fd8dabac4356cdd9dea362d73c8ce251"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal03/task__Dkf2kmM/agent/trajectory.json",
+    "sha256": "0f829af0c843cd18618a90bc40910795eba5cd7cef97b3e124a68fced5cf7f31"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/report.json",
+    "sha256": "912bc395483f505cf642c5ec9ab54ca1bf574a4066ae51334d06b2abcb238ea0"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/ctrf.json",
+    "sha256": "35195b880d7183cd04fddc745b0365bbcfd8319900eba2e01a21b9dcc237d437"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal03/task__Dkf2kmM/verifier/reward.txt",
+    "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal03/task__Dkf2kmM/artifacts/app/submission/controller.py",
+    "sha256": "0557cb5d624b9500df0ce216a790326b2d3f828737540a2af889788703ec3edb"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal04/task__gp5bXib/agent/trajectory.json",
+    "sha256": "dc58c503f866c9203e66a23864a1839dec0207519bb41540dc02279b8a406cfc"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal04/task__gp5bXib/verifier/report.json",
+    "sha256": "3efc14bcde87857c384c3b3c63c83b6c58291ba6f884bc83ac114e0320763220"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal04/task__gp5bXib/verifier/ctrf.json",
+    "sha256": "54b6be8d0e81fc69579f02b590744f49be7b06741abef7f4cb0c9977d9acbcd8"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal04/task__gp5bXib/verifier/reward.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal04/task__gp5bXib/artifacts/app/submission/controller.py",
+    "sha256": "cbddfaa3fc0a03d1ba071b379a18e35c0b8d895e4ec992e15d7bdc2b31de3a13"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal05/task__DKvdeP2/agent/trajectory.json",
+    "sha256": "31740769ef2abe444484767951026cb005b5fbf55eb8e82fdda42c8fc427538a"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal05/task__DKvdeP2/verifier/report.json",
+    "sha256": "cd6920a41794b00c3b816c00fc0cef509536e84f3e4682e2363e8f7efd419f19"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal05/task__DKvdeP2/verifier/ctrf.json",
+    "sha256": "d54503f9567a3fbf83961d88d45bcf5165225b54d50b37fc8dcb2014aaa0fb8e"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal05/task__DKvdeP2/verifier/reward.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "delivery_path": "evidence/model-runs/normal05/task__DKvdeP2/artifacts/app/submission/controller.py",
+    "sha256": "d2054b331fe4b5f915262e7bf0a7f9eaee726507d369dc729fd871c75ce341fc"
+  }
+]

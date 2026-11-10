@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "name": "P1_pump_trip_2MW"
+    },
+    {
+      "name": "P2_mains_loss_pumpB"
+    },
+    {
+      "name": "P3_rtd_drift"
+    },
+    {
+      "name": "P4_dp_transmitter_open"
+    },
+    {
+      "name": "P5_valve_stiction"
+    },
+    {
+      "name": "P6_rack_group_service"
+    }
+  ]
+}

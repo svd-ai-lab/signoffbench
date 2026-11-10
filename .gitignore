@@ -8,7 +8,11 @@ __pycache__/
 .tmp/
 .cache/
 runs/
+
+# Logs written by local tooling. Task directories carry their own logs as
+# delivery evidence, so those are tracked.
 *.log
+!tasks/**/*.log
 
 # Editor and OS
 .DS_Store

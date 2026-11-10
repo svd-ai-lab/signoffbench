@@ -1,0 +1,18 @@
+{
+    "job_name": "symlink",
+    "jobs_dir": "/opt/sb/codex167-official-campaign-20261106/e09-quick",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "cdu_quick_e09:QuickProbe",
+            "kwargs": {
+                "probe": "symlink"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/opt/sb/codex167-official-campaign-20261106/task"
+        }
+    ]
+}

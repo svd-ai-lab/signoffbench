@@ -1,0 +1,295 @@
+{
+  "scope": "18 source-library records used in CDU model/design/background. Exact source-document archives are retained in the source library; this map does not redistribute their full text or claim all materials are open licensed. Python and Debian dependency maps are separate. MATLAB/FMU generated-runtime terms and base-image contents are recorded in their separate license inventories.",
+  "sources": [
+    {
+      "source_id": "065494c0b705",
+      "title": "Fisher Control Valve Handbook",
+      "source_url": "https://www.emerson.com/is/content/emerson/es/final-control/isolation-valves/documents/control-valve-handbook-en-3661206.pdf",
+      "version_or_revision": "Fisher Control Valve Handbook, copyright 2005/2019/2023",
+      "license": "Copyright; all rights reserved",
+      "use_in_task": "Valve characterization and installation background",
+      "archive": {
+        "sha256": "065494c0b705f6fd53abd5efa7ae1df644ba9cd80cb3b1da15be580ace1ec22c",
+        "bytes": 17126683,
+        "retrieved_at": "2026-10-22T16:16:42Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "0945dd7dbe5d",
+      "title": "WIKA blog: Pt100 class B / F 0.3 per IEC 60751",
+      "source_url": "https://blog.wika.com/en/knowhow/pt100-in-class-b-oder-f-03-what-does-iec-60751-say/",
+      "version_or_revision": "Archived vendor web article; date/version not stated",
+      "license": "No redistribution license established from archived text",
+      "use_in_task": "Pt100 Class B / IEC 60751 background",
+      "archive": {
+        "sha256": "0945dd7dbe5d51261fa373734f9683d46b13daaf4155a894d8852af739eab220",
+        "bytes": 82902,
+        "retrieved_at": "2026-10-22T10:35:56Z",
+        "kind": "html"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "481f1599468f",
+      "title": "Meta The Llama3 Herd of Models",
+      "source_url": "https://arxiv.org/pdf/2407.21783",
+      "version_or_revision": "arXiv:2407.21783; exact PDF fixed by archive SHA-256",
+      "license": "Paper redistribution license not established; model license is not a paper/data license",
+      "use_in_task": "Training synchronization background; NOT the workload trace dataset",
+      "archive": {
+        "sha256": "481f1599468f95a07d05e97fafe55bbe786dc1624c6f881bcb4c7d14c933d083",
+        "bytes": 9833173,
+        "retrieved_at": "2026-10-22T16:20:13Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "531d457d34a0",
+      "title": "OCP OAI SYSTEM LIQUID COOLING",
+      "source_url": "https://www.opencompute.org/documents/oai-system-liquid-cooling-guidelines-in-ocp-template-mar-3-2023-update-pdf/",
+      "version_or_revision": "OAI System Liquid Cooling guidelines, 2023-03-03",
+      "license": "CC-BY-SA-4.0",
+      "use_in_task": "Liquid cooling design background",
+      "archive": {
+        "sha256": "531d457d34a0a1aad82468cbbcb7ba0a1e21f74c5a0b101da42a3dc8ee748f52",
+        "bytes": 1909597,
+        "retrieved_at": "2026-10-22T16:19:54Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "532d5cf45d6f",
+      "title": "WIKA blog: How Thermowells Affect Temperature Response Times",
+      "source_url": "https://blog.wika.com/us/products/temperature-products/temperature-sensors-thermowells-and-response-times/",
+      "version_or_revision": "Archived vendor web article; date/version not stated",
+      "license": "No redistribution license established from archived text",
+      "use_in_task": "Thermowell response-time background",
+      "archive": {
+        "sha256": "532d5cf45d6f13ca2aab49c33420de391cbb771469a78a1d31159b91f3be6a4d",
+        "bytes": 71281,
+        "retrieved_at": "2026-10-22T10:35:48Z",
+        "kind": "html"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "591a72970f52",
+      "title": "Lenovo RM100 user guide (hdc_rackcabinet)",
+      "source_url": "https://pubs.lenovo.com/hdc_rackcabinet/rm100_user_guide.pdf",
+      "version_or_revision": "RM100 user guide; exact edition fixed by archive SHA-256",
+      "license": "Copyright notice present; no open redistribution grant established",
+      "use_in_task": "CDU alarms and operational sequence background",
+      "archive": {
+        "sha256": "591a72970f527e8df7f7bbdb3335bc08a866a3032aae681e65ab9f0a907c1e78",
+        "bytes": 4743087,
+        "retrieved_at": "2026-10-22T06:08:55Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "5dc849bf7f7e",
+      "title": "Externally Shared DRAFT- OCP-Specification-Deschutes v 1.0",
+      "source_url": "https://www.opencompute.org/documents/ocp-specification-deschutes-v1-0-pdf/",
+      "version_or_revision": "Deschutes v1.0",
+      "license": "Modified OWFa 0.9 FSA (2024-10-16); appendices explicitly excluded",
+      "use_in_task": "CDU design basis; distinguish normative specification from reference-only appendices",
+      "archive": {
+        "sha256": "5dc849bf7f7e765f9cde6096fc0c86470f39cea2c9b2f9853cc3b0acd7b44106",
+        "bytes": 21159789,
+        "retrieved_at": "2026-10-22T06:08:47Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "700d022c3730",
+      "title": "Emerson Rosemount 3051 Reference Manual (00809-0100-4001) — damping section",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/measurement-instrumentation/technical/products/pressure/documents/doc-rosemount-3051-00809-0100-4001.pdf",
+      "version_or_revision": "Rosemount 3051 reference manual 00809-0100-4001",
+      "license": "No open redistribution license established from archived text",
+      "use_in_task": "Instrument damping background",
+      "archive": {
+        "sha256": "700d022c3730198ec4e8577fd33b217b9c6210c202b5204eca6b959cf4f09a18",
+        "bytes": 6841746,
+        "retrieved_at": "2026-10-22T10:36:19Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "88ef194297f5",
+      "title": "Belimo B6500S290 official product indexed excerpt (original unavailable)",
+      "source_url": "upload://88ef194297f5",
+      "version_or_revision": "B6500S-290-250+GRX24-MFT indexed product excerpt",
+      "license": "No redistribution license established from indexed excerpt",
+      "use_in_task": "Valve size/Cv/flow characteristic; original page unavailable, no evidence for stroke time/rangeability",
+      "archive": {
+        "sha256": "88ef194297f5295445c94e690d06a651c32a10d961ce366d3ff6efaa453953d4",
+        "bytes": 848,
+        "retrieved_at": "2026-10-22T16:23:34Z",
+        "kind": "txt"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash.",
+      "original_source_url": "https://www.belimo.com/us/shop/en_US/config?code=B6500S-290-250%2BGRX24-MFT"
+    },
+    {
+      "source_id": "90262d8b0ea4",
+      "title": "ISO9906:2012 preview",
+      "source_url": "https://www.iteh.eu/catalog/standards/iso/5ad9ff83-c68f-4d87-9b38-f1d3ab3f845a/iso-9906-2012",
+      "version_or_revision": "ISO 9906:2012 preview",
+      "license": "Copyright ISO; all rights reserved",
+      "use_in_task": "Pump acceptance-test background; preview only",
+      "archive": {
+        "sha256": "90262d8b0ea4f23ce671e58e871cff84b369eab19540def31618228b631eaf63",
+        "bytes": 252410,
+        "retrieved_at": "2026-10-22T16:16:52Z",
+        "kind": "html"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "a2c46e5ef712",
+      "title": "Choudhury, Thornhill, Shah (2005): Modelling valve stiction, Control Engineering Practice 13",
+      "source_url": "https://sites.ualberta.ca/~slshah/files/modelling_valve_stiction.pdf",
+      "version_or_revision": "Choudhury, Thornhill, Shah, Control Engineering Practice 13 (2005)",
+      "license": "Copyright 2004 Elsevier; all rights reserved",
+      "use_in_task": "Valve-stiction model background",
+      "archive": {
+        "sha256": "a2c46e5ef7124714208f77e48789eedb04b75bc98789c1e26aa556f51f88d01f",
+        "bytes": 787296,
+        "retrieved_at": "2026-10-22T16:19:52Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "c3b6af83bab4",
+      "title": "Emerson Rosemount 3051 Pressure Transmitter Product Data Sheet (00813-0100-4001)",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/measurement-instrumentation/technical/products/pressure/documents/doc-rosemount-3051-00813-0105-4001.pdf",
+      "version_or_revision": "Rosemount 3051 product data sheet 00813-0100-4001; URL names 00813-0105-4001",
+      "license": "Copyright 2026 Emerson; all rights reserved",
+      "use_in_task": "Pressure transmitter specifications; archived bytes disambiguate URL/title mismatch",
+      "archive": {
+        "sha256": "c3b6af83bab4cd263d5da9bab4dc11ca921fd286fbe3e10e2f3f94522433ee1b",
+        "bytes": 27863991,
+        "retrieved_at": "2026-10-22T10:36:14Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "c6dab2b51946",
+      "title": "GitHub - simscape/Data-Center-Simscape: In this project, you learn how to design modern data centers by specifying server rack layouts and power ratings. You will learn how to solve engineering problems in power systems and HVAC domains.",
+      "source_url": "https://github.com/simscape/Data-Center-Simscape",
+      "version_or_revision": "3c3594c6772cfcf7644f22599a9ce6e6e24eb3f9",
+      "license": "BSD-3-Clause",
+      "use_in_task": "Baseline Simscape data-center model, subsequently adapted through DC01/DC05",
+      "archive": {
+        "sha256": "c6dab2b51946d5ce25d0a97238305fcd71de49c532c3fe4005ec439b651c49eb",
+        "bytes": 288534,
+        "retrieved_at": "2026-10-22T06:09:05Z",
+        "kind": "html"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash.",
+      "git_commit": "3c3594c6772cfcf7644f22599a9ce6e6e24eb3f9",
+      "commit_evidence": "Archived GitHub embedded refInfo.currentOid; model commit additionally recorded in original DC05 task.json.",
+      "license_notice": {
+        "url": "https://raw.githubusercontent.com/simscape/Data-Center-Simscape/3c3594c6772cfcf7644f22599a9ce6e6e24eb3f9/license.txt",
+        "path": "metadata/licenses/model/Data-Center-Simscape-license.txt",
+        "sha256": "67606c9b863dfcbb8f8238594ed5fe21984f0fac5eeeb920b427419fe08c95e0"
+      }
+    },
+    {
+      "source_id": "c9e225a6ca4a",
+      "title": "Vertiv™ CoolChip CDU",
+      "source_url": "https://www.vertiv.com/globalassets/shared/vertiv-coolchip-cdu-family-data-sheet-sl-80005.pdf",
+      "version_or_revision": "CoolChip CDU family data sheet SL-80005",
+      "license": "No open redistribution license established from archived text",
+      "use_in_task": "CDU family operating envelope background",
+      "archive": {
+        "sha256": "c9e225a6ca4aa05b5850e12edf7596cdffc837d88bc6bb142425cd33fd57927c",
+        "bytes": 292124,
+        "retrieved_at": "2026-10-22T06:08:59Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "d275179e3e3c",
+      "title": "OCP white paper: liquid/liquid CDU test methodology and performance rating (r1)",
+      "source_url": "https://www.opencompute.org/documents/ocp-wp-l-lcdu-test-methodology-performance-rating-r1-pdf/",
+      "version_or_revision": "Liquid-to-Liquid CDU Test Methodology and Performance Rating, revision 1.0",
+      "license": "CC-BY-SA-4.0",
+      "use_in_task": "CDU qualification/test methodology",
+      "archive": {
+        "sha256": "d275179e3e3c8e837d39d268e9b8017a8e1ab7053ae2fd1438a9a9fb44d1ba6c",
+        "bytes": 732511,
+        "retrieved_at": "2026-10-22T06:09:02Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "e9b13c411de5",
+      "title": "My Document",
+      "source_url": "https://www.vertiv.com/494474/globalassets/shared/vertiv-coolchip-cdu-70-operation-and-maintenance-guide-sl-80016.pdf",
+      "version_or_revision": "CoolChip CDU070 Operation and Maintenance Guide SL-80016, 2025",
+      "license": "Copyright 2025 Vertiv; proprietary/confidential notice",
+      "use_in_task": "Vendor control sequence and alarm background",
+      "archive": {
+        "sha256": "e9b13c411de5607147999fd49a5ba49b45212a97732faa3b4baddc7ce790f14f",
+        "bytes": 2993186,
+        "retrieved_at": "2026-10-22T16:20:09Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    },
+    {
+      "source_id": "eb42c213bcc7",
+      "title": "GitHub - Ahmed-Elsayed95/High-resolution-AI-Data-Center-Training-Workloads-Dataset: This Datasets provides a high-resolution in subsecond range of different AI application training workloads on single and muiltple GPU node. The dataset contains 32 training sessions on high-performance H100 and B200 8-GPU nodes and 40 sessions on consumer-grade NVIDIA GeForce RTX 3060 GPUs, encompassing over 1.8 million samples. · GitHub",
+      "source_url": "https://github.com/Ahmed-Elsayed95/High-resolution-AI-Data-Center-Training-Workloads-Dataset",
+      "version_or_revision": "f7f8d62e806ce2b64e93c58fce2bb18604f067ad",
+      "license": "CC-BY-NC-ND-4.0",
+      "use_in_task": "B200 LLM/diffusion workload traces transformed into reduced load profiles",
+      "archive": {
+        "sha256": "eb42c213bcc741396f52735053f7914212ea5ca842c7059fd8ece2d4045fe2f5",
+        "bytes": 309967,
+        "retrieved_at": "2026-10-22T10:30:47Z",
+        "kind": "html"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash.",
+      "git_commit": "f7f8d62e806ce2b64e93c58fce2bb18604f067ad",
+      "commit_evidence": "Archived GitHub embedded refInfo.currentOid; model commit additionally recorded in original DC05 task.json."
+    },
+    {
+      "source_id": "f40fb4546499",
+      "title": "Endress Memograph operating instructions NAMUR NE43",
+      "source_url": "https://portal.endress.com/wa001/dla/5000381/0923/000/05/BA247REN_0111.pdf",
+      "version_or_revision": "Memograph operating instructions BA247REN_0111",
+      "license": "No open redistribution license established from archived text",
+      "use_in_task": "NAMUR NE43 signal-fault background",
+      "archive": {
+        "sha256": "f40fb4546499ea1f1f335d83090206953450235681d0ff8033ced511bdcbe1e4",
+        "bytes": 3815570,
+        "retrieved_at": "2026-10-22T16:19:58Z",
+        "kind": "pdf"
+      },
+      "evidence_scope": "Existing source-library metadata and extracted text; archive hash identifies fetched document/page, not a Git tree or binary model hash."
+    }
+  ],
+  "usage_rights_clearance": {
+    "status": "cleared",
+    "confirmed_by": "user",
+    "confirmed_on": "2026-11-08",
+    "timezone": "Asia/Shanghai",
+    "scope": "All usage rights for the current CDU delivery, including the workload dataset and generated FMU runtime.",
+    "confirmation": "all usage rights are cleared. housekeeping",
+    "basis": "Explicit user confirmation in the project conversation; original third-party license notices and source identities remain unchanged.",
+    "a07_status": "closed"
+  }
+}

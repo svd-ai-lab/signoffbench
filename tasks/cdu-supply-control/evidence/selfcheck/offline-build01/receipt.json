@@ -1,0 +1,38 @@
+[
+  {
+    "phase": "agent",
+    "exit": 0,
+    "elapsed_s": 64.22086501121521,
+    "command": [
+      "docker",
+      "build",
+      "--pull=false",
+      "--no-cache",
+      "--network=none",
+      "--memory=8g",
+      "--cpu-quota=400000",
+      "-t",
+      "cdu-control6-offline:agent",
+      "/opt/sb/dc05-control6-20261105/tasks/cdu-supply-control/environment"
+    ],
+    "image_id": "sha256:3078fccdde15f7db5c3f62e9f48dbae6c1c49a6ea9ae7c8f7c173a41eb6515ca"
+  },
+  {
+    "phase": "verifier",
+    "exit": 0,
+    "elapsed_s": 67.07543921470642,
+    "command": [
+      "docker",
+      "build",
+      "--pull=false",
+      "--no-cache",
+      "--network=none",
+      "--memory=8g",
+      "--cpu-quota=400000",
+      "-t",
+      "cdu-control6-offline:verifier",
+      "/opt/sb/dc05-control6-20261105/tasks/cdu-supply-control/tests"
+    ],
+    "image_id": "sha256:ec35c7c1c7df4c6a22fff598c4aedca7bce9b8a571b4842faf1ad3889185ac9f"
+  }
+]

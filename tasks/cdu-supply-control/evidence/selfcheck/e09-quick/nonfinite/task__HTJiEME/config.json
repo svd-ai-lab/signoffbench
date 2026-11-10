@@ -1,0 +1,14 @@
+{
+    "task": {
+        "path": "/opt/sb/codex167-official-campaign-20261106/task"
+    },
+    "trial_name": "task__HTJiEME",
+    "trials_dir": "/opt/sb/codex167-official-campaign-20261106/e09-quick/nonfinite",
+    "agent": {
+        "name": "cdu_quick_e09:QuickProbe",
+        "kwargs": {
+            "probe": "nonfinite"
+        }
+    },
+    "job_id": "6805775e-3df9-4c49-8499-a627b7b8490e"
+}

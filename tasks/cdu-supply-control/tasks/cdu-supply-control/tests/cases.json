@@ -1,0 +1,97 @@
+{
+  "cases": [
+    {
+      "name": "P1_pump_trip_2MW"
+    },
+    {
+      "name": "P2_mains_loss_pumpB"
+    },
+    {
+      "name": "P3_rtd_drift"
+    },
+    {
+      "name": "P4_dp_transmitter_open"
+    },
+    {
+      "name": "P5_valve_stiction"
+    },
+    {
+      "name": "P6_rack_group_service"
+    },
+    {
+      "name": "H01_trip_worn_survivor"
+    },
+    {
+      "name": "H02_worn_pump_sharing"
+    },
+    {
+      "name": "H03_check_valve_passing"
+    },
+    {
+      "name": "H04_rtd_stuck_fws_change"
+    },
+    {
+      "name": "H05_rtd_open_circuit"
+    },
+    {
+      "name": "H06_dp_drift_then_trip"
+    },
+    {
+      "name": "H07_dp_noise_training"
+    },
+    {
+      "name": "H08_flowmeter_stuck_isolation"
+    },
+    {
+      "name": "H09_valve_seized_release"
+    },
+    {
+      "name": "H10_mains_loss_half_row"
+    },
+    {
+      "name": "H11_rtd_noise_then_trip"
+    },
+    {
+      "name": "H12_two_sags_humid"
+    },
+    {
+      "name": "H13_rtd2_drift_condensation"
+    },
+    {
+      "name": "H14_rtd2_open_circuit"
+    },
+    {
+      "name": "H15_rtd1_stuck"
+    },
+    {
+      "name": "H16_rtd1_noise"
+    },
+    {
+      "name": "H17_dp1_stuck"
+    },
+    {
+      "name": "H18_dp1_positive_drift"
+    },
+    {
+      "name": "H19_dp2_open_circuit"
+    },
+    {
+      "name": "H20_dp2_stuck"
+    },
+    {
+      "name": "H21_dp2_noise"
+    },
+    {
+      "name": "H22_flowmeter_open_circuit"
+    },
+    {
+      "name": "H23_flowmeter_drift"
+    },
+    {
+      "name": "H24_flowmeter_noise"
+    },
+    {
+      "name": "H25_intermittent_rtd2_stiction"
+    }
+  ]
+}

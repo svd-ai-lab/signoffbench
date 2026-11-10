@@ -1,0 +1,10 @@
+run,case,check,status,native_metric_value,comparator,native_metric_threshold,violation_duration_s
+normal01,H10_mains_loss_half_row,dp_surge,failed,327.72828276409564,<=,0.0,155.0
+normal02,P1_pump_trip_2MW,rack_flow,failed,0.009858366326720928,<=,0.0,1.0
+normal02,P2_mains_loss_pumpB,rack_flow,failed,0.009860848458424684,<=,0.0,1.0
+normal02,H01_trip_worn_survivor,rack_flow,failed,0.007082181116840891,<=,0.0,1.0
+normal02,H03_check_valve_passing,rack_flow,failed,0.00399378777311949,<=,0.0,1.0
+normal02,H12_two_sags_humid,rack_flow,failed,0.017889188380155865,<=,0.0,2.0
+normal04,H13_rtd2_drift_condensation,dew_point,failed,24.276933457523,<=,0.0,34.0
+normal05,H10_mains_loss_half_row,overpressure,failed,147.41554754026768,<=,0.0,35.0
+normal05,H10_mains_loss_half_row,dp_surge,failed,509.68195158489914,<=,0.0,39.0

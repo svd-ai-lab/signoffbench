@@ -1,0 +1,9 @@
+{
+  "probe": "nonfinite",
+  "script": "from pathlib import Path\np=Path('/app/submission/controller.py')\np.unlink(missing_ok=True)\np.write_text(\"class Controller:\\n def reset(self): pass\\n def step(self,o): return dict(pumpA_cmd=float('nan'),pumpB_cmd=0.,pumpC_cmd=0.,valve_cmd=0.)\\n\")\nprint('probe prepared: '+'nonfinite')\n",
+  "result": {
+    "stdout": "probe prepared: nonfinite\n",
+    "stderr": null,
+    "return_code": 0
+  }
+}

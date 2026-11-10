@@ -1,0 +1,28 @@
+schema_version = "1.3"
+artifacts = ["/app/submission/controller.py"]
+[metadata]
+category = "Science"
+subcategory = "Physics"
+tags = ["dynamical-systems", "feedback-control", "thermal-fluid", "fault-tolerance"]
+author_name = "AUTHOR-001"
+relevant_experience = "Data-center liquid-cooling projects"
+expert_time_estimate_hours = 4
+[agent]
+timeout_sec = 7200
+[environment]
+build_timeout_sec = 1800
+cpus = 4
+memory_mb = 4096
+storage_mb = 20480
+gpus = 0
+allow_internet = false
+[verifier]
+timeout_sec = 900
+environment_mode = "separate"
+[verifier.environment]
+build_timeout_sec = 1800
+cpus = 4
+memory_mb = 8192
+storage_mb = 20480
+gpus = 0
+allow_internet = false

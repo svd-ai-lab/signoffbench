@@ -1,0 +1,17 @@
+Package: python3-more-itertools
+Source: more-itertools
+Version: 10.7.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 292
+Depends: python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/more-itertools/more-itertools/
+Description: library with routines for operating on iterables, beyond itertools (Python 3)
+ Python's itertools library is a gem - you can compose elegant solutions
+ for a variety of problems with the functions it provides.
+ More-itertools collects additional building blocks, recipes,
+ and routines for working with Python iterables.
+ .
+ This package contains the module for Python 3.

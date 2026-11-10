@@ -1,0 +1,28 @@
+{
+    "task": {
+        "path": "/tmp/harbor-check-soikngm6/check-cdu-supply-control"
+    },
+    "trial_name": "check-cdu-supply-control__r3Yf6AF",
+    "trials_dir": "/opt/sb/cdu-submission-check-20261106/check/jobs/quality-check",
+    "agent": {
+        "name": "codex",
+        "model_name": "openai/gpt-6.1-sol",
+        "kwargs": {
+            "version": "0.167.0",
+            "reasoning_effort": "medium"
+        },
+        "env": {
+            "HTTPS_PROXY": "http://172.31.87.101:18994",
+            "HTTP_PROXY": "http://172.31.87.101:18994"
+        }
+    },
+    "environment": {
+        "type": "docker",
+        "kwargs": {
+            "extra_docker_compose": [
+                "/opt/sb/cdu-submission-check-20261106/check/reviewer-compose.json"
+            ]
+        }
+    },
+    "job_id": "8bdbc9c6-0dca-4b73-b662-e3f512b3b41e"
+}

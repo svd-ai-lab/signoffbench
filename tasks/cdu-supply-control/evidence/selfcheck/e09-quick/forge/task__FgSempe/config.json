@@ -1,0 +1,14 @@
+{
+    "task": {
+        "path": "/opt/sb/codex167-official-campaign-20261106/task"
+    },
+    "trial_name": "task__FgSempe",
+    "trials_dir": "/opt/sb/codex167-official-campaign-20261106/e09-quick/forge",
+    "agent": {
+        "name": "cdu_quick_e09:QuickProbe",
+        "kwargs": {
+            "probe": "forge"
+        }
+    },
+    "job_id": "6750f783-18e0-41da-b76a-c0b4631e9f9e"
+}

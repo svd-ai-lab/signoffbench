@@ -1,0 +1,1 @@
+{"schema_version": 1, "scope": "supply-six-all31", "started_unix": 1793937961.9766257, "cases": {}, "reward": 0, "candidate_sha256": null, "error": {"type": "ValueError", "message": "submission/controller.py must be a regular file"}, "outcome": "execution_failure", "execution_valid": false, "finished_unix": 1793937961.9768686, "elapsed_s": 0.00024318695068359375}

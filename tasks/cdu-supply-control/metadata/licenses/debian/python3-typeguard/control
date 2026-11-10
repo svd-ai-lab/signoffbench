@@ -1,0 +1,18 @@
+Package: python3-typeguard
+Source: python-typeguard
+Version: 4.4.2-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 167
+Depends: python3-importlib-metadata | python3-supported-min (>= 3.10), python3-typing-extensions (>= 4.10.0), python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/agronholm/typeguard
+Description: Run-time type checker for Python
+ This library provides run-time type checking for functions defined with
+ argument type annotations. This can be done in one of three ways:
+  * calling check_argument_types() from within the function body
+  * decorating the function with @typechecked
+  * using `with TypeChecker('packagename')`
+ .
+ This package installs the library for Python 3.

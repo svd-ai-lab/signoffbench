@@ -1,0 +1,22 @@
+{
+  "author_name": "AUTHOR-001",
+  "relevant_experience": "Data-center liquid-cooling projects",
+  "expert_time_estimate_hours": 4,
+  "expert_time_basis": "Scope-adjusted estimate for implementing and validating a known control design using supplied FMUs and tools. Not a separate timed implementation measurement.",
+  "material_provenance_statement": {
+    "provided_by": "AUTHOR-001",
+    "statement": "All parameters and data come from the open data-center project OCP, the public product pages of CDU vendors, and the data-center workloads published by Meta; no undisclosed third-party material is included.",
+    "verification": "English translation of the historical user-provided declaration, which was written in Chinese and is retained verbatim in the frozen submission archive; source audit corrects the trace attribution below. It is not independent evidence of redistribution rights."
+  },
+  "historical_engineering_effort": {
+    "hours_approximate": 16,
+    "scope": "Author-described project understanding, decomposition/decoupling, stability design, disturbance tests and iteration; roughly two working days."
+  },
+  "source_audit_correction": {
+    "trace_source": "Ahmed-Elsayed95/High-resolution-AI-Data-Center-Training-Workloads-Dataset",
+    "trace_commit": "f7f8d62e806ce2b64e93c58fce2bb18604f067ad",
+    "meta_role": "Training-synchronization background only, not trace data source",
+    "mapping": "metadata/third_party_sources.json",
+    "trace_authorization": "Separate authorization for commercial delivery/adapted data or replacement unresolved"
+  }
+}

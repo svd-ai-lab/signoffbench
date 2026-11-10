@@ -1,0 +1,16 @@
+Package: python3.13
+Version: 3.13.5-2+deb13u5
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 830
+Depends: python3.13-minimal (= 3.13.5-2+deb13u5), libpython3.13-stdlib (= 3.13.5-2+deb13u5), media-types | mime-support, tzdata
+Recommends: ca-certificates
+Suggests: python3.13-venv, python3.13-doc, binutils
+Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
+Section: python
+Priority: optional
+Multi-Arch: allowed
+Description: Interactive high-level object-oriented language (version 3.13)
+ Python is a high-level, interactive, object-oriented language. Its 3.13 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.

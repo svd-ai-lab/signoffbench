@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "/opt/sb/cdu-campaign-20261107/task"
+    },
+    "trial_name": "task__87JPRwY",
+    "trials_dir": "/opt/sb/cdu-campaign-20261107/jobs/nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "572623ac-1e2d-42bb-b030-b7b386072882"
+}

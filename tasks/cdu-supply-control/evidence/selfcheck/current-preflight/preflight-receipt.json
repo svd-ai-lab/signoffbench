@@ -1,0 +1,68 @@
+[
+  {
+    "name": "oracle",
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/cdu-campaign-20261107/task",
+      "-a",
+      "oracle",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/cdu-campaign-20261107/jobs",
+      "--job-name",
+      "oracle"
+    ],
+    "started_at": 1793983068.7432551,
+    "status": "completed",
+    "pid": 2603988,
+    "exit_code": 0,
+    "finished_at": 1793983242.7270417,
+    "trials": [
+      {
+        "trial": "task__YNdfP69",
+        "reward": {
+          "reward": 1.0
+        },
+        "exception_info": null
+      }
+    ]
+  },
+  {
+    "name": "nop",
+    "command": [
+      "/opt/sb/dc05-delivery-20261105/harbor025-exact-public/bin/harbor",
+      "run",
+      "-p",
+      "/opt/sb/cdu-campaign-20261107/task",
+      "-a",
+      "nop",
+      "-n",
+      "1",
+      "-k",
+      "1",
+      "--jobs-dir",
+      "/opt/sb/cdu-campaign-20261107/jobs",
+      "--job-name",
+      "nop"
+    ],
+    "started_at": 1793983068.7435284,
+    "status": "completed",
+    "pid": 2603989,
+    "exit_code": 0,
+    "finished_at": 1793983115.235587,
+    "trials": [
+      {
+        "trial": "task__87JPRwY",
+        "reward": {
+          "reward": 0.0
+        },
+        "exception_info": null
+      }
+    ]
+  }
+]

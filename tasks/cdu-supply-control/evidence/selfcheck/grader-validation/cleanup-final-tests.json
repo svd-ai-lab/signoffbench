@@ -1,0 +1,55 @@
+{
+  "grader_sha256": "63307138bb7e7d80402939b07f6f957e565cb72c6b807cb8cbc6cdd8c4791537",
+  "tests": [
+    {
+      "test": "test_cdu_cleanup.py",
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network",
+        "none",
+        "--cpus",
+        "2",
+        "--memory",
+        "2g",
+        "--entrypoint",
+        "python",
+        "-v",
+        "/opt/sb/codex167-official-campaign-20261106/grade.py:/tmp/grade-fixed.py:ro",
+        "-v",
+        "/opt/sb/codex167-official-campaign-20261106/test_cdu_cleanup.py:/tmp/test-cleanup.py:ro",
+        "sha256:767f4c598160d2fea2487d439b66859a59bc155fa5323b6b9c8fb8b6fbccf77c",
+        "/tmp/test-cleanup.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"test\": \"detached descendant retains inherited pipes\", \"before_live_processes\": 2, \"after_live_processes\": 0, \"close_elapsed_s\": 0.10208744800183922, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "test": "test_cdu_timeout_cleanup.py",
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network",
+        "none",
+        "--cpus",
+        "2",
+        "--memory",
+        "2g",
+        "--entrypoint",
+        "python",
+        "-v",
+        "/opt/sb/codex167-official-campaign-20261106/grade.py:/tmp/grade-fixed.py:ro",
+        "-v",
+        "/opt/sb/codex167-official-campaign-20261106/test_cdu_timeout_cleanup.py:/tmp/test-cleanup.py:ro",
+        "sha256:767f4c598160d2fea2487d439b66859a59bc155fa5323b6b9c8fb8b6fbccf77c",
+        "/tmp/test-cleanup.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"schema_version\": 1, \"scope\": \"configured-public-and-private-cases\", \"reward\": 0, \"execution_valid\": false, \"cases\": {}, \"error\": {\"type\": \"TimeoutError\", \"message\": \"verifier exceeded 2s native execution budget\"}, \"verifier_run_id\": \"c5995612b4b94ab0afdc09775da17256\", \"started_unix\": 1793939877.1002998, \"finished_unix\": 1793939879.1033278, \"elapsed_s\": 2.00302791595459, \"case_execution\": {}}\n{\"test\": \"supervisor timeout cleans separate-session candidate\", \"passed\": true, \"candidate_alive_after_timeout\": false, \"reward\": 0}\n",
+      "stderr": ""
+    }
+  ]
+}

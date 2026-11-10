@@ -1,0 +1,15 @@
+{
+    "job_name": "nop",
+    "jobs_dir": "/opt/sb/cdu-campaign-20261107/jobs",
+    "n_concurrent_trials": 1,
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/opt/sb/cdu-campaign-20261107/task"
+        }
+    ]
+}
