@@ -1,0 +1,24 @@
+SignOffBench
+Copyright 2026 SVD Lab
+
+This product is licensed under the Apache License, Version 2.0 (the "License");
+see the accompanying LICENSE file for the full text.
+
+================================================================================
+Third-party task material
+================================================================================
+
+Task directories under tasks/ may contain material derived from third-party
+sources, such as published specifications, vendor documentation and open-source
+models. Each task states its source and licence in its own documentation. Those
+terms apply to that task's files and are not superseded by this repository's
+licence.
+
+================================================================================
+Trademarks
+================================================================================
+
+Product, tool, and company names may be trademarks or registered trademarks of
+their respective owners. SignOffBench is an independent open-source project and
+is not affiliated with, endorsed by, or sponsored by any third-party vendor
+unless explicitly stated.

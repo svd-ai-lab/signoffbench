@@ -5,5 +5,4 @@ authors:
   - name: "SVD AI Lab"
     website: "https://github.com/svd-ai-lab"
 repository-code: "https://github.com/svd-ai-lab/signoffbench"
-url: "https://huanjingagent.com/simulink-taxonomy/leaderboard/"
 license: Apache-2.0
