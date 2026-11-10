@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Local and generated state
+.tmp/
+.cache/
+runs/
+*.log
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/

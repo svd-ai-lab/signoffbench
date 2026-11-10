@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the paper below."
+title: "SignOffBench: Can AI Agents Pass Real-World Engineering Design Sign-Off?"
+authors:
+  - name: "SVD AI Lab"
+    website: "https://github.com/svd-ai-lab"
+repository-code: "https://github.com/svd-ai-lab/signoffbench"
+url: "https://huanjingagent.com/simulink-taxonomy/leaderboard/"
+license: Apache-2.0
